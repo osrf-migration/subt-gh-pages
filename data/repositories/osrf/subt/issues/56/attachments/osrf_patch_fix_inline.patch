@@ -1,0 +1,12 @@
+diff -r 27079e732f94 subt-communication/subt_communication_model/include/subt_communication_model/subt_communication_model.h
+--- a/subt-communication/subt_communication_model/include/subt_communication_model/subt_communication_model.h	Tue Feb 19 20:55:29 2019 +0000
++++ b/subt-communication/subt_communication_model/include/subt_communication_model/subt_communication_model.h	Wed Mar 13 11:16:24 2019 -0600
+@@ -50,7 +50,7 @@
+ /// Output stream operator.
+ /// @param oss Stream
+ /// @param config configuration to output
+-std::ostream& operator<<(std::ostream& oss, const radio_configuration& config)
++inline std::ostream& operator<<(std::ostream& oss, const radio_configuration& config)
+ {
+   oss << "Radio Configuration" << std::endl
+       << "-- capacity: " << config.capacity << std::endl

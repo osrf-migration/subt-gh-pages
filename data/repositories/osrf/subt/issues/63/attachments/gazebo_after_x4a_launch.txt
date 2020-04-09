@@ -1,0 +1,90 @@
+New client registered [X4A]
+New endpoint registered [X4A:4100] for client [X4A]
+New endpoint registered [broadcast:4100] for client [X4A]
+[Wrn] [msgs.cc:1852] Conversion of sensor type[depth] not supported.
+[ INFO] [1555615368.275767059, 6.942000000]: Camera Plugin: Using the 'robotNamespace' param: '/'
+[ INFO] [1555615368.278303808, 6.942000000]: Camera Plugin (ns = /)  <tf_prefix_>, set to ""
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Wrn] [gazebo_motor_model.cpp:122] [gazebo_motor_model] motorType not specified, using velocity.
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_0_joint].
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_1_joint].
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_2_joint].
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_3_joint].
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_4_joint].
+[Err] [JointMotionTimerPlugin.cc:127] Could not find joint [X4/rotor_5_joint].
+[FATAL] [1555615368.353227654, 6.942000000]: Joint X4/pressure_sensor_joint does not exist!
+[ INFO] [1555615368.353549473, 6.942000000]: GazeboRosJointStatePublisher is going to publish joint: X4/pressure_sensor_joint
+[FATAL] [1555615368.353566677, 6.942000000]: Joint X4/magnetometer_joint does not exist!
+[ INFO] [1555615368.353682204, 6.942000000]: GazeboRosJointStatePublisher is going to publish joint: X4/magnetometer_joint
+[FATAL] [1555615368.353695438, 6.942000000]: Joint X4/imu_joint does not exist!
+[ INFO] [1555615368.353707293, 6.942000000]: GazeboRosJointStatePublisher is going to publish joint: X4/imu_joint
+[FATAL] [1555615368.353724058, 6.942000000]: Joint X4/odometry_sensor1_joint does not exist!
+[ INFO] [1555615368.353739975, 6.942000000]: GazeboRosJointStatePublisher is going to publish joint: X4/odometry_sensor1_joint
+[ INFO] [1555615368.353752579, 6.942000000]: Starting GazeboRosJointStatePublisher Plugin (ns = X4A/fixed/)!, parent name: X4A
+[Dbg] [gazebo_pressure_plugin.cpp:39] _model = X4A
+[Dbg] [gazebo_imu_plugin.cpp:54] _model = X4A
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/right_flashlight/enable
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/downward_flashlight/enable
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/left_flashlight/enable
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/right_led/enable
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/center_led/enable
+[Msg] Plugin Loaded: RosFlashLightPlugin
+[Msg] service name: /X4A/left_led/enable
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed" to ROS topic "X4A/motor_speed".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/joint_states" to ROS topic "X4A/joint_states".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/0" to ROS topic "X4A/motor_speed/0".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/1" to ROS topic "X4A/motor_speed/1".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/2" to ROS topic "X4A/motor_speed/2".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/3" to ROS topic "X4A/motor_speed/3".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_motor_model.cpp:235] void gazebo::GazeboMotorModel::CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/4" to ROS topic "X4A/motor_speed/4".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/motor_speed/5" to ROS topic "X4A/motor_speed/5".
+[Dbg] [gazebo_controller_interface.cpp:105] CreatePubsAndSubs() called.
+[Dbg] [gazebo_controller_interface.cpp:124] GazeboControllerInterface creating Gazebo publisher on "X4A/gazebo/command/motor_speed".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_controller_interface.cpp:145] Subscribing to Gazebo topic "~/X4A/command/motor_speed".
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "X4A/gazebo/command/motor_speed" to ROS topic "X4A/gazebo/command/motor_speed".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_controller_interface.cpp:164] CreatePubsAndSubs() called.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/odometry_sensor1/pose" to ROS topic "X4A/odometry_sensor1/pose".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/odometry_sensor1/pose_with_covariance" to ROS topic "X4A/odometry_sensor1/pose_with_covariance".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/odometry_sensor1/position" to ROS topic "X4A/odometry_sensor1/position".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/odometry_sensor1/odometry" to ROS topic "X4A/odometry_sensor1/odometry".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/odometry_sensor1/transform" to ROS topic "X4A/odometry_sensor1/transform".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/magnetic_field" to ROS topic "X4A/magnetic_field".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/air_pressure" to ROS topic "X4A/air_pressure".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Dbg] [gazebo_ros_interface_plugin.cpp:184] Connecting Gazebo topic "~/X4A/imu/data" to ROS topic "X4A/imu/data".
+[Dbg] [gazebo_ros_interface_plugin.cpp:276] GzConnectGazeboToRosTopicMsgCallback() finished.
+[Msg] Model [start_area] started touching [] at 6 944000000 seconds
+Segmentation fault (core dumped)
+[gazebo-2] process has died [pid 21439, exit code 139, cmd /opt/ros/melodic/lib/gazebo_ros/gzserver -e ode -r --verbose /home/subt-neil/subt_ws/install/share/subt_gazebo/worlds/tunnel_qual.world __name:=gazebo __log:=/home/subt-neil/.ros/log/51747b8a-620f-11e9-bce3-7085c2526b2b/gazebo-2.log].
+log file: /home/subt-neil/.ros/log/51747b8a-620f-11e9-bce3-7085c2526b2b/gazebo-2*.log
+

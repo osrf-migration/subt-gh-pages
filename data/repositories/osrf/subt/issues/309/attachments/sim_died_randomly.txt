@@ -1,0 +1,338 @@
+robot@robot-desktop:~/subt_ws/src/subt$ ign launch -v 4 urban_circuit.ign worldName:=urban_qual robotName1:=X1 robotConfig1:=X2_SENSOR_CONFIG_6
+[Dbg] [Manager.cc:545] Forked a process for [ros] command[roslaunchsubt_roscompetition_init.launchworld_name:=urban_qualvehicle_topics:=0enable_ground_truth:=0robot_names:=X1]
+[Dbg] [Manager.cc:545] Forked a process for [x2_description] command[roslaunch--waitsubt_rosx2_description.launchworld_name:=urban_qualname:=X1]
+[Dbg] [Manager.cc:545] Forked a process for [x2_ros_ign_bridge] command[roslaunch--waitsubt_rosvehicle_topics.launchworld_name:=urban_qualname:=X1uav:=0laser_scan:=0stereo_cam:=0lidar_3d:=1]
+[Dbg] [Manager.cc:809] Loading plugin. Name[ignition::launch::GazeboServer] File[libignition-launch-gazebo.so]
+[Msg] Recording to [/tmp/ign/logs]
+[Dbg] [Manager.cc:809] Loading plugin. Name[ignition::launch::GazeboGui] File[libignition-launch-gazebogui.so]
+[Msg] Loading SDF world file[/home/robot/subt_ws/install/share/subt_ign/worlds/urban_qual.sdf].
+[Dbg] [Application.cc:87] Initializing application.
+[GUI] [Dbg] [Application.cc:407] Create main window
+roscore/master is not yet running, will wait for it to start
+roscore/master is not yet running, will wait for it to start
+... logging to /home/robot/.ros/log/b60a9b04-2b56-11ea-ba75-708bcd2eee8f/roslaunch-robot-desktop-17467.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+[GUI] [Msg] Loading config [/home/robot/.ignition/launch/gui.config]
+[GUI] [Dbg] [Application.cc:266] Loading window config
+[GUI] [Dbg] [Application.cc:421] Applying config
+[GUI] [Dbg] [Application.cc:305] Loading plugin [GzScene3D]
+[GUI] [Msg] Transform mode service on [/gui/transform_mode]
+[GUI] [Msg] Record video service on [/gui/record_video]
+[GUI] [Msg] Move to service on [/gui/move_to]
+[GUI] [Msg] Follow service on [/gui/follow]
+[GUI] [Msg] Added plugin [3D View] to main window
+[GUI] [Msg] Loaded plugin [GzScene3D] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libGzScene3D.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldControl]
+[GUI] [Msg] Added plugin [World control] to main window
+[GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldControl.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldStats]
+[GUI] [Msg] Added plugin [World stats] to main window
+[GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldStats.so]
+[GUI] [Dbg] [GuiRunner.cc:37] Requesting initial state from [/world/urban_qual/state]...
+[GUI] [Dbg] [GazeboGui.cc:195] Running the GazeboGui plugin.
+/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/loader.py:412: YAMLLoadWarning: calling yaml.load() without Loader=... is deprecated, as the default Loader is unsafe. Please read https://msg.pyyaml.org/load for full details.
+  data = yaml.load(text)
+started roslaunch server http://robot-desktop:38355/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /robot_names: X1
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /use_sim_time: True
+ * /world_name: urban_qual
+
+NODES
+  /
+    ros_ign_bridge_robot_desktop_17467_7023777655558983457 (ros_ign_bridge/parameter_bridge)
+    rosbag_robot_data (rosbag/record)
+    subt_ros_relay (subt_ros/subt_ros_relay)
+    tf_world_static (tf2_ros/static_transform_publisher)
+
+auto-starting new master
+process[master]: started with pid [17512]
+[GUI] [Msg] Loading plugin [ignition-rendering2-ogre2]
+master has started, initiating launch
+master has started, initiating launch
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to b60a9b04-2b56-11ea-ba75-708bcd2eee8f
+... logging to /home/robot/.ros/log/b60a9b04-2b56-11ea-ba75-708bcd2eee8f/roslaunch-robot-desktop-17469.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+... logging to /home/robot/.ros/log/b60a9b04-2b56-11ea-ba75-708bcd2eee8f/roslaunch-robot-desktop-17468.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+[GUI] [Dbg] [RenderUtil.cc:849] Create scene [scene]
+process[rosout-1]: started with pid [17539]
+started core service [/rosout]
+Done checking log file disk usage. Usage is <1GB.
+
+process[ros_ign_bridge_robot_desktop_17467_7023777655558983457-2]: started with pid [17547]
+process[subt_ros_relay-3]: started with pid [17548]
+process[rosbag_robot_data-4]: started with pid [17549]
+process[tf_world_static-5]: started with pid [17568]
+started roslaunch server http://robot-desktop:33929/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X1/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros_ign_bridge_battery_state (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_camera (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_gas (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_imu (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_lidar3d (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_odom (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_pose (ros_ign_bridge/parameter_bridge)
+    ros_ign_bridge_twist (ros_ign_bridge/parameter_bridge)
+    ros_ign_image_camera (ros_ign_image/image_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[X1/ros_ign_bridge_imu-1]: started with pid [17596]
+process[X1/ros_ign_bridge_pose-2]: started with pid [17599]
+process[X1/ros_ign_bridge_twist-3]: started with pid [17600]
+process[X1/ros_ign_bridge_gas-4]: started with pid [17608]
+process[X1/ros_ign_bridge_lidar3d-5]: started with pid [17619]
+process[X1/ros_ign_bridge_camera-6]: started with pid [17631]
+process[X1/ros_ign_image_camera-7]: started with pid [17655]
+process[X1/ros_ign_bridge_odom-8]: started with pid [17665]
+process[X1/ros_ign_bridge_battery_state-9]: started with pid [17670]
+process[X1/pose_tf_broadcaster-10]: started with pid [17680]
+started roslaunch server http://robot-desktop:37947/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /X1/robot_description: <?xml version="1....
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+
+ROS_MASTER_URI=http://localhost:11311
+
+No processes to monitor
+shutting down processing monitor...
+... shutting down processing monitor complete
+[Dbg] [EntityComponentManager.cc:627] Using components of type [2251689575469537287] / [ign_gazebo_components.World].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [13994732549916512682] / [ign_gazebo_components.Name].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [12592746352568925681] / [ign_gazebo_components.Gravity].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [13224937992534617849] / [ign_gazebo_components.MagneticField].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [8753193699724811771] / [ign_gazebo_components.Wind].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [12173050716021724529] / [ign_gazebo_components.WorldLinearVelocity].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [15943768124495574352] / [ign_gazebo_components.WorldLinearVelocitySeed].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [3297509811873971798] / [ign_gazebo_components.ParentEntity].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [17100615127981600159] / [ign_gazebo_components.Scene].
+[Dbg] [LevelManager.cc:203] Levels enabled, but no <performer>s were speficied in SDF. Use the /world/<world_name>/level/set_performer service to specify performers.
+[Dbg] [LevelManager.cc:292] Reading levels info
+[Dbg] [EntityComponentManager.cc:627] Using components of type [8064491505919932473] / [ign_gazebo_components.Level].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [6612894081701502240] / [ign_gazebo_components.Pose].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [11371360182141354106] / [ign_gazebo_components.LevelEntityNames].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [17121648710877364109] / [ign_gazebo_components.Geometry].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [4639224053471842703] / [ign_gazebo_components.LevelBuffer].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [2668898242563798256] / [ign_gazebo_components.DefaultLevel].
+[Dbg] [SimulationRunner.cc:745] Loaded system [ignition::gazebo::systems::WindEffects] for entity [1]
+[Wrn] [LogRecord.cc:167] Log path already exists on disk! Recording will overwrite existing state log file, if present.
+[Msg] Recording to log file [/tmp/ign/logs/state.tlog]
+[Dbg] [SimulationRunner.cc:745] Loaded system [ignition::gazebo::systems::LogRecord] for entity [1]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::Physics] for entity [1]
+[Dbg] [Sensors.cc:307] Configuring Sensors system
+[Dbg] [Sensors.cc:263] SensorsPrivate::Run
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::Sensors] for entity [1]
+[Dbg] [Sensors.cc:248] SensorsPrivate::RenderThread started
+[Dbg] [Sensors.cc:158] Waiting for init
+[Msg] Create service on [/world/urban_qual/create]
+[Msg] Remove service on [/world/urban_qual/remove]
+[Msg] Pose service on [/world/urban_qual/set_pose]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::UserCommands] for entity [1]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::SceneBroadcaster] for entity [1]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::Imu] for entity [1]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::Magnetometer] for entity [1]
+[Dbg] [SimulationRunner.cc:818] Loaded system [ignition::gazebo::systems::AirPressure] for entity [1]
+[Msg] Adding artifact name[backpack_1] type string[TYPE_BACKPACK] typeid[0]
+[Msg] Adding artifact name[backpack_2] type string[TYPE_BACKPACK] typeid[0]
+[Msg] Adding artifact name[backpack_3] type string[TYPE_BACKPACK] typeid[0]
+[Msg] Adding artifact name[backpack_4] type string[TYPE_BACKPACK] typeid[0]
+[Msg] Adding artifact name[backpack_5] type string[TYPE_BACKPACK] typeid[0]
+[Msg] Adding artifact name[phone_1] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[phone_2] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[phone_3] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[phone_4] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[phone_5] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[phone_6] type string[TYPE_PHONE] typeid[5]
+[Msg] Adding artifact name[rescue_randy_1] type string[TYPE_RESCUE_RANDY] typeid[7]
+[Msg] Adding artifact name[rescue_randy_2] type string[TYPE_RESCUE_RANDY] typeid[7]
+[Msg] Adding artifact name[rescue_randy_3] type string[TYPE_RESCUE_RANDY] typeid[7]
+[Msg] Adding artifact name[rescue_randy_4] type string[TYPE_RESCUE_RANDY] typeid[7]
+[Msg] Adding artifact name[rescue_randy_5] type string[TYPE_RESCUE_RANDY] typeid[7]
+[Msg] Adding artifact name[vent_1] type string[TYPE_VENT] typeid[10]
+[Msg] Adding artifact name[vent_2] type string[TYPE_VENT] typeid[10]
+[Msg] Adding artifact name[vent_3] type string[TYPE_VENT] typeid[10]
+[Msg] Adding artifact name[vent_4] type string[TYPE_VENT] typeid[10]
+[Msg] Adding artifact name[gas_1] type string[TYPE_GAS] typeid[11]
+[Msg] Adding artifact name[gas_2] type string[TYPE_GAS] typeid[11]
+[Msg] Adding artifact name[gas_3] type string[TYPE_GAS] typeid[11]
+[Msg] Adding artifact name[gas_4] type string[TYPE_GAS] typeid[11]
+[Msg] Run duration set to 0 seconds.
+[Msg] Starting SubT
+[Dbg] [SimulationRunner.cc:818] Loaded system [subt::GameLogicPlugin] for entity [1]
+[Dbg] [EntityComponentManager.cc:627] Using components of type [6687176221774458630] / [ign_gazebo_components.Model].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [8546580419506082455] / [ign_gazebo_components.Static].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [9712747055438129860] / [ign_gazebo_components.WindMode].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [5081358965268446661] / [ign_gazebo_components.Link].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [8112400427272910195] / [ign_gazebo_components.Inertial].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [16454635107327670381] / [ign_gazebo_components.Visual].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [13011964647677164955] / [ign_gazebo_components.CastShadows].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [9853217982010720764] / [ign_gazebo_components.Material].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [17938588655714334139] / [ign_gazebo_components.Collision].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [9225962031573086509] / [ign_gazebo_components.CollisionElement].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [10522242218202596205] / [ign_gazebo_components.CanonicalLink].
+[Msg] Loaded level [91]
+[Msg] Serving world controls on [/world/urban_qual/control] and [/world/urban_qual/playback/control]
+[Msg] Serving GUI information on [/world/urban_qual/gui/info]
+[Msg] World [urban_qual] initialized with [1ms] physics profile.
+[Dbg] [GazeboServer.cc:205] Loaded GazeboServer plugin.
+[Msg] Found no publishers on /stats, adding root stats topic
+[Msg] Found no publishers on /clock, adding root clock topic
+[Dbg] [SimulationRunner.cc:394] Creating PostUpdate worker threads: 8
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (0)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (2)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (3)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (4)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (5)
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (6)
+[Dbg] [Manager.cc:809] Loading plugin. Name[subt::CommsBrokerPlugin] File[libCommsBrokerPlugin.so]
+[Dbg] [CommsBrokerPlugin.cc:66] Loading visibility_config from SDF: 
+RF Configuration (visibility-based)
+-- visibilityCostToFadingExponent: 0.2
+-- commsCostMax: 10
+
+[Dbg] [CommsBrokerPlugin.cc:90] Loading range_config from SDF: 
+RF Configuration (range-based)
+-- max_range: 500
+-- fading_exponent: 2.5
+-- L0: 40
+-- sigma: 10
+
+[Dbg] [CommsBrokerPlugin.cc:115] Loading radio_config from SDF: 
+Radio Configuration
+-- capacity: 1e+06
+-- default_tx_power: 20
+-- noise_floor: -90
+-- modulation: QPSK
+
+[Dbg] [SimulationFeatures.cc:47] Simulation timestep set to: 0.004
+[Msg] Serving scene information on [/world/urban_qual/scene/info]
+[Msg] Serving graph information on [/world/urban_qual/scene/graph]
+[Msg] Serving full state on [/world/urban_qual/state]
+[Msg] Publishing scene information on [/world/urban_qual/scene/info]
+[Msg] Publishing entity deletions on [/world/urban_qual/scene/deletion]
+[Msg] Publishing state changes on [/world/urban_qual/state]
+[Msg] Publishing pose messages on [/world/urban_qual/pose/info]
+[Msg] Publishing dynamic pose messages on [/world/urban_qual/dynamic_pose/info]
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [13994732549916512682] / [ign_gazebo_components.Name].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [9853217982010720764] / [ign_gazebo_components.Material].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [16454635107327670381] / [ign_gazebo_components.Visual].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [6612894081701502240] / [ign_gazebo_components.Pose].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [13011964647677164955] / [ign_gazebo_components.CastShadows].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [17121648710877364109] / [ign_gazebo_components.Geometry].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [3297509811873971798] / [ign_gazebo_components.ParentEntity].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [8112400427272910195] / [ign_gazebo_components.Inertial].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [5081358965268446661] / [ign_gazebo_components.Link].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [9712747055438129860] / [ign_gazebo_components.WindMode].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [10522242218202596205] / [ign_gazebo_components.CanonicalLink].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [8546580419506082455] / [ign_gazebo_components.Static].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [6687176221774458630] / [ign_gazebo_components.Model].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [8064491505919932473] / [ign_gazebo_components.Level].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [2668898242563798256] / [ign_gazebo_components.DefaultLevel].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [11371360182141354106] / [ign_gazebo_components.LevelEntityNames].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [4639224053471842703] / [ign_gazebo_components.LevelBuffer].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [8753193699724811771] / [ign_gazebo_components.Wind].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [12173050716021724529] / [ign_gazebo_components.WorldLinearVelocity].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [15943768124495574352] / [ign_gazebo_components.WorldLinearVelocitySeed].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [9225962031573086509] / [ign_gazebo_components.CollisionElement].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [17938588655714334139] / [ign_gazebo_components.Collision].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [13224937992534617849] / [ign_gazebo_components.MagneticField].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [17100615127981600159] / [ign_gazebo_components.Scene].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [2251689575469537287] / [ign_gazebo_components.World].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [12592746352568925681] / [ign_gazebo_components.Gravity].
+[Dbg] [CommsBrokerPlugin.cc:210] Using [visibility_range] comms model
+[Msg] Starting SubT comms broker
+[Dbg] [Manager.cc:809] Loading plugin. Name[subt::BaseStationPlugin] File[libBaseStationPlugin.so]
+[Msg] Base station plugin loaded
+[Msg] Storing callback for base_station:4000
+[Msg] Storing callback for broadcast:4000
+[Msg] Storing callback for base_station:4100
+[Msg] Storing callback for broadcast:4100
+[Dbg] [Manager.cc:809] Loading plugin. Name[ignition::launch::GazeboFactory] File[libignition-launch-gazebo-factory.so]
+[Dbg] [GazeboFactory.cc:140] Factory service call succeeded.
+[Dbg] [EntityComponentManager.cc:627] Using components of type [3866641186784191835] / [ign_gazebo_components.Light].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [273039548655896271] / [ign_gazebo_components.Sensor].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [17771214158902094494] / [ign_gazebo_components.Imu].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [10461520141335422054] / [ign_gazebo_components.WorldPose].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [9810498410555695050] / [ign_gazebo_components.AngularVelocity].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [17373107141547024696] / [ign_gazebo_components.LinearAcceleration].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [14624144930658477562] / [ign_gazebo_components.Camera].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [1301926277928136113] / [ign_gazebo_components.GpuLidar].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [360894313363162387] / [ign_gazebo_components.Joint].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [4514298940308304267] / [ign_gazebo_components.JointType].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [16752981946841796574] / [ign_gazebo_components.JointAxis].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [6791213906290467105] / [ign_gazebo_components.ThreadPitch].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [14863055383328686534] / [ign_gazebo_components.ParentLinkName].
+[Dbg] [EntityComponentManager.cc:627] Using components of type [3888602368311486678] / [ign_gazebo_components.ChildLinkName].
+[Msg] DiffDrive subscribing to twist messages on [/model/X1/cmd_vel_relay]
+[Dbg] [SimulationRunner.cc:745] Loaded system [ignition::gazebo::systems::DiffDrive] for entity [108]
+[Dbg] [SimulationRunner.cc:745] Loaded system [ignition::gazebo::systems::PosePublisher] for entity [108]
+[Dbg] [EntityComponentManager.cc:627] Using components of type [4154590335585354845] / [ign_gazebo_components.BatterySoC].
+[Dbg] [LinearBatteryPlugin.cc:276] Start draining only on motion
+[Msg] LinearBatteryPlugin configured. Battery name: linear_battery
+[Dbg] [LinearBatteryPlugin.cc:283] Battery initial voltage: 12.694
+[Dbg] [SimulationRunner.cc:745] Loaded system [ignition::gazebo::systems::LinearBatteryPlugin] for entity [108]
+[Dbg] [SimulationRunner.cc:745] Loaded system [subt::GasDetector] for entity [108]
+[Dbg] [UserCommands.cc:491] Created entity [108] named [X1]
+[Dbg] [Sensors.cc:344] Initialization needed
+[Dbg] [Sensors.cc:170] Initializing render context
+[Msg] Loading plugin [ignition-rendering2-ogre2]
+[Dbg] [SimulationRunner.cc:423] Exiting postupdate worker thread ([Dbg] [SimulationRunner.cc:423] [Dbg] [SimulationRunner.cc:423] 2Exiting postupdate worker thread ()4
+))[Dbg] [SimulationRunner.cc:423] 
+)[Dbg] [SimulationRunner.cc:423] [Dbg] [SimulationRunner.cc:423] [Dbg] [SimulationRunner.cc:423] Exiting postupdate worker thread (3)
+Exiting postupdate worker thread (6)
+)[Dbg] [SimulationRunner.cc:423] [Dbg] [SimulationRunner.cc:423] Exiting postupdate worker thread (0)
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [3866641186784191835] / [ign_gazebo_components.Light].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [16752981946841796574] / [ign_gazebo_components.JointAxis].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [360894313363162387] / [ign_gazebo_components.Joint].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [3888602368311486678] / [ign_gazebo_components.ChildLinkName].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [4514298940308304267] / [ign_gazebo_components.JointType].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [14863055383328686534] / [ign_gazebo_components.ParentLinkName].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [6791213906290467105] / [ign_gazebo_components.ThreadPitch].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [4154590335585354845] / [ign_gazebo_components.BatterySoC].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [1301926277928136113] / [ign_gazebo_components.GpuLidar].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [273039548655896271] / [ign_gazebo_components.Sensor].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [14624144930658477562] / [ign_gazebo_components.Camera].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [17771214158902094494] / [ign_gazebo_components.Imu].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [17373107141547024696] / [ign_gazebo_components.LinearAcceleration].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [9810498410555695050] / [ign_gazebo_components.AngularVelocity].
+[GUI] [Dbg] [EntityComponentManager.cc:627] Using components of type [10461520141335422054] / [ign_gazebo_components.WorldPose].
+[Dbg] [SimulationRunner.cc:423] Exiting postupdate worker thread (1)
+[Dbg] [SimulationRunner.cc:423] Exiting postupdate worker thread (5)
+[Dbg] [SimulationRunner.cc:394] Creating PostUpdate worker threads: 12
+[Dbg] [SimulationRunner.cc:407] Creating postupdate worker thread (0)
+Inconsistency detected by ld.so: ../elf/dl-tls.c: 481: _dl_allocate_tls_init: Assertion `listp->slotinfo[cnt].gen <= GL(dl_tls_generation)' failed!
+robot@robot-desktop:~/subt_ws/src/subt$

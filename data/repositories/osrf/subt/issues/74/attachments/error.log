@@ -1,0 +1,345 @@
+baila@baila-PC:~/subt_ws$ source /opt/ros/melodic/setup.bash
+baila@baila-PC:~/subt_ws$ source ~/subt_ws/install/setup.bash
+baila@baila-PC:~/subt_ws$ ign launch -v 4 virtual_stix.ign robotName1:=X1 robotConfig1:=X1_SENSOR_CONFIG_1 robotName2:=X2 robotConfig2:=X2_SENSOR_CONFIG_1 robotName3:=X3 robotConfig3:=X3_SENSOR_CONFIG_1 robotName4:=X4 robotConfig4:=X4_SENSOR_CONFIG_1
+[Dbg] [Manager.cc:406] Forked a process for [ros] command[roslaunchsubt_roscompetition_init.launchworld_name:=virtual_stixvehicle_topics:=0]
+[Dbg] [Manager.cc:406] Forked a process for [x1_ros_ign_bridge] command[roslaunch--waitsubt_rosvehicle_topics.launchname:=X1]
+[Dbg] [Manager.cc:406] Forked a process for [x2_ros_ign_bridge] command[roslaunch--waitsubt_rosvehicle_topics.launchname:=X2]
+[Dbg] [Manager.cc:406] Forked a process for [X3_controller] command[roslaunch--waitx3_controlcontrol.launchworld_name:=virtual_stixx3_name:=X3]
+[Dbg] [Manager.cc:406] Forked a process for [x3_ros_ign_bridge] command[roslaunch--waitsubt_rosvehicle_topics.launchname:=X3]
+[Dbg] [Manager.cc:406] Forked a process for [X4_controller] command[roslaunch--waitx4_controlcontrol.launchworld_name:=virtual_stixx4_name:=X4]
+[Dbg] [Manager.cc:406] Forked a process for [x4_ros_ign_bridge] command[roslaunch--waitsubt_rosvehicle_topics.launchname:=X4]
+[Dbg] [Manager.cc:649] Loading plugin. Name[ignition::launch::GazeboServer] File[libignition-launch-gazebo.so]
+[Msg] Recording to []
+[Msg] Loading SDF world file[/home/baila/subt_ws/install/share/subt_ign/worlds/virtual_stix.sdf].
+[Dbg] [Manager.cc:649] Loading plugin. Name[ignition::launch::GazeboGui] File[libignition-launch-gazebogui.so]
+[Dbg] [Application.cc:87] Initializing application.
+[GUI] [Dbg] [Application.cc:407] Create main window
+master has started, initiating launch
+master has started, initiating launch
+master has started, initiating launch
+master has started, initiating launch
+master has started, initiating launch
+master has started, initiating launch
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+INFO: cannot create a symlink to latest log directory: [Errno 2] No such file or directory: '/home/baila/.ros/log/latest'
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15507.log
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15509.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15506.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15503.log
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15508.log
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15504.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+... logging to /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/roslaunch-baila-PC-15505.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[GUI] [Msg] Loading config [/usr/share/ignition/ignition-gazebo2/gui/gui.config]
+[GUI] [Dbg] [Application.cc:266] Loading window config
+[GUI] [Dbg] [Application.cc:421] Applying config
+[GUI] [Dbg] [Application.cc:305] Loading plugin [GzScene3D]
+Done checking log file disk usage. Usage is <1GB.
+Done checking log file disk usage. Usage is <1GB.
+Done checking log file disk usage. Usage is <1GB.
+Done checking log file disk usage. Usage is <1GB.
+
+Done checking log file disk usage. Usage is <1GB.
+
+Done checking log file disk usage. Usage is <1GB.
+
+
+Done checking log file disk usage. Usage is <1GB.
+
+
+
+[GUI] [Msg] Transform mode service on [/gui/transform_mode]
+[GUI] [Msg] Added plugin [3D View] to main window
+[GUI] [Msg] Loaded plugin [GzScene3D] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libGzScene3D.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldControl]
+started roslaunch server http://baila-PC:44439/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X2/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+started roslaunch server http://baila-PC:43607/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X1/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+started roslaunch server http://baila-PC:35979/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X4/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[X2/ros1_ign_bridge_imu-1]: started with pid [15608]
+process[X2/ros1_ign_bridge_pose-2]: started with pid [15611]
+process[X1/ros1_ign_bridge_imu-1]: started with pid [15613]
+process[X2/ros1_ign_bridge_actuators-3]: started with pid [15612]
+process[X2/ros1_ign_bridge_twist-4]: started with pid [15614]
+process[X1/ros1_ign_bridge_pose-2]: started with pid [15615]
+process[X2/ros1_ign_bridge_camera-5]: started with pid [15616]
+process[X2/pose_tf_broadcaster-6]: started with pid [15617]
+process[X1/ros1_ign_bridge_actuators-3]: started with pid [15618]
+process[X4/ros1_ign_bridge_imu-1]: started with pid [15620]
+process[X1/ros1_ign_bridge_twist-4]: started with pid [15622]
+Resource not found: rotors_gazebo
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/baila/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+The traceback for the exception was written to the log file
+process[X4/ros1_ign_bridge_pose-2]: started with pid [15623]
+process[X1/ros1_ign_bridge_camera-5]: started with pid [15624]
+process[X4/ros1_ign_bridge_actuators-3]: started with pid [15625]
+started roslaunch server http://baila-PC:44319/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X3/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[X1/pose_tf_broadcaster-6]: started with pid [15628]
+process[X4/ros1_ign_bridge_twist-4]: started with pid [15631]
+process[X4/ros1_ign_bridge_camera-5]: started with pid [15634]
+process[X4/pose_tf_broadcaster-6]: started with pid [15635]
+[GUI] [Msg] Added plugin [World control] to main window
+[GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldControl.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldStats]
+process[X3/ros1_ign_bridge_imu-1]: started with pid [15636]
+process[X3/ros1_ign_bridge_pose-2]: started with pid [15637]
+process[X3/ros1_ign_bridge_actuators-3]: started with pid [15638]
+process[X3/ros1_ign_bridge_twist-4]: started with pid [15639]
+process[X3/ros1_ign_bridge_camera-5]: started with pid [15640]
+process[X3/pose_tf_broadcaster-6]: started with pid [15641]
+started roslaunch server http://baila-PC:41925/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /axis_angular: 0
+ * /axis_arrow_horizontal: 3
+ * /axis_arrow_vertical: 4
+ * /axis_horizontal: 3
+ * /axis_linear: 1
+ * /axis_vertical: 4
+ * /button_map/A: 0
+ * /button_map/B: 1
+ * /button_map/L: 4
+ * /button_map/R: 5
+ * /button_map/X: 2
+ * /button_map/Y: 3
+ * /button_robot_map/A: X1
+ * /button_robot_map/B: X2
+ * /button_robot_map/X: X3
+ * /button_robot_map/Y: X4
+ * /comm_led_service_suffixes: ['/rear_center_le...
+ * /dead_man_switch_left: 10
+ * /dead_man_switch_right: 11
+ * /enable_button: 4
+ * /enable_turbo_button: 5
+ * /flashlight_service_suffixes: ['/right_headligh...
+ * /joy_node/autorepeat_rate: 20
+ * /joy_node/deadzone: 0.1
+ * /joy_node/dev: /dev/input/js0
+ * /light_off_trigger: 7
+ * /light_on_trigger: 6
+ * /robot_address_map/X1: X1
+ * /robot_address_map/X2: X2
+ * /robot_address_map/X3: X3
+ * /robot_address_map/X4: X4
+ * /robot_names: ['X1', 'X2', 'X3'...
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /scale_angular: 0.4
+ * /scale_angular_turbo: 0.8
+ * /scale_horizontal: 0.4
+ * /scale_horizontal_turbo: 1.5
+ * /scale_linear: 0.1
+ * /scale_linear_turbo: 1.5
+ * /scale_vertical: 50
+ * /scale_vertical_turbo: 150
+ * /select_led_service_suffixes: ['/left_lateral_f...
+ * /use_sim_time: True
+ * /world_name: virtual_stix
+
+NODES
+  /
+    joy_node (joy/joy_node)
+    ros1_ign_bridge_baila_PC_15503_1141104466978351544 (ros1_ign_bridge/parameter_bridge)
+    teleop_twist_joy (subt_example/teleop_node)
+    tf_world_static (tf2_ros/static_transform_publisher)
+
+ROS_MASTER_URI=http://localhost:11311
+
+process[ros1_ign_bridge_baila_PC_15503_1141104466978351544-1]: started with pid [15650]
+Resource not found: rotors_gazebo
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/baila/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+The traceback for the exception was written to the log file
+process[tf_world_static-2]: started with pid [15664]
+process[joy_node-3]: started with pid [15685]
+process[teleop_twist_joy-4]: started with pid [15711]
+[GUI] [Msg] Added plugin [World stats] to main window
+[GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldStats.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [EntityTree]
+[Dbg] [Manager.cc:295] Received signal[17]
+[Dbg] [Manager.cc:312] Death of process[15508] with name[X4_controller].
+[Dbg] [Manager.cc:295] Received signal[17]
+[Dbg] [Manager.cc:312] Death of process[15506] with name[X3_controller].
+[X3/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X3-pose_tf_broadcaster-6*.log
+[X2/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X2-pose_tf_broadcaster-6*.log
+all processes on machine have died, roslaunch will exit
+all processes on machine have died, roslaunch will exit
+[GUI] [Msg] Added plugin [Entity tree] to main window
+[GUI] [Msg] Loaded plugin [EntityTree] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libEntityTree.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [TransformControl]
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+[GUI] [Msg] Added plugin [Transform control] to main window
+[GUI] [Msg] Loaded plugin [TransformControl] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libTransformControl.so]
+[GUI] [Dbg] [GuiRunner.cc:35] Requesting initial state from [/world/virtual_stix/state]...
+[GUI] [Dbg] [GazeboGui.cc:130] Running the GazeboGui plugin.
+[ERROR] [1560445539.310801556]: Couldn't open joystick /dev/input/js0. Will retry every second.
+[X3/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X3-pose_tf_broadcaster-6*.log
+[X2/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X2-pose_tf_broadcaster-6*.log
+[X1/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X1-pose_tf_broadcaster-6*.log
+all processes on machine have died, roslaunch will exit
+[X4/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X4-pose_tf_broadcaster-6*.log
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+[GUI] [Msg] Loading plugin [ignition-rendering2-ogre2]
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+[X1/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X1-pose_tf_broadcaster-6*.log
+[tf_world_static-2] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/tf_world_static-2*.log
+[teleop_twist_joy-4] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/teleop_twist_joy-4*.log
+[X4/pose_tf_broadcaster-6] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/X4-pose_tf_broadcaster-6*.log
+[teleop_twist_joy-4] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/teleop_twist_joy-4*.log
+[joy_node-3] process has finished cleanly
+log file: /home/baila/.ros/log/d4a044ea-8ddd-11e9-b92c-68a3c4a1e180/joy_node-3*.log
+all processes on machine have died, roslaunch will exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done
+[GUI] [Dbg] [RenderUtil.cc:628] Create scene [scene]
+
+
+
+!!!!!!!!!!!!!!
+Below log came after I select GzScene3D from the 
+menu at top-right corner
+!!!!!!!!!!!!!!
+
+
+[GUI] [Dbg] [Application.cc:305] Loading plugin [GzScene3D]
+[GUI] [Msg] Transform mode service on [/gui/transform_mode]
+[GUI] [Msg] Added plugin [3D Scene] to main window
+[GUI] [Msg] Loaded plugin [GzScene3D] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libGzScene3D.so]
+SEGV/usr/lib/ruby/ignition/cmdlaunch1.rb:202: [BUG] Segmentation fault at 0x0000000000000000
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
+
+-- Control frame information -----------------------------------------------
+ received in c:0005 SEGVp:---- s:0044 e:000043 CFUNC  :call
+ handler
+c:0004 p:0017 s:0039 e:000038 METHOD /usr/lib/ruby/ignition/cmdlaunch1.rb:202
+c:0003 p:0446 s:0033 e:000032 METHOD /usr/lib/ruby/ignition/cmdlaunch1.rb:202
+c:0002 p:0628 s:0019 E:001b68 EVAL   /usr/bin/ign:267 [FINISH]
+c:0001 p:0000 s:0003 E:001520 (none) [FINISH]
+
+-- Ruby level backtrace information ----------------------------------------
+/usr/bin/ign:267:in `<main>'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `execute'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `run'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `call'
+
+

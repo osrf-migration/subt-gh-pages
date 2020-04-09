@@ -1,0 +1,1241 @@
+developer@baila-PC:~/subt_ws$ ign launch virtual_stix.ign robotName1:=X1 robotConfig1:=X1_SENSOR_CONFIG_1
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-developer'
+master has started, initiating launch
+master has started, initiating launch
+... logging to /home/developer/.ros/log/5a4abe58-9b4a-11e9-94ce-68a3c4a1e180/roslaunch-baila-PC-596.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+... logging to /home/developer/.ros/log/5a4abe58-9b4a-11e9-94ce-68a3c4a1e180/roslaunch-baila-PC-595.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+Done checking log file disk usage. Usage is <1GB.
+
+... logging to /home/developer/.ros/log/5a4abe58-9b4a-11e9-94ce-68a3c4a1e180/roslaunch-baila-PC-597.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://baila-PC:44179/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /use_sim_time: True
+ * /world_name: virtual_stix
+
+NODES
+  /
+    ros1_ign_bridge_baila_PC_595_3885915330043419583 (ros1_ign_bridge/parameter_bridge)
+    tf_world_static (tf2_ros/static_transform_publisher)
+
+ROS_MASTER_URI=http://localhost:11311
+
+started roslaunch server http://baila-PC:45835/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+  /X1/
+    pose_tf_broadcaster (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_fluid_pressure (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_gpu_lidar (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_magnetometer (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+started roslaunch server http://baila-PC:37235/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /X1/robot_description: <?xml version="1....
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+
+NODES
+
+ROS_MASTER_URI=http://localhost:11311
+
+No processes to monitor
+shutting down processing monitor...
+... shutting down processing monitor complete
+process[ros1_ign_bridge_baila_PC_595_3885915330043419583-1]: started with pid [660]
+process[X1/ros1_ign_bridge_imu-1]: started with pid [665]
+[Err] [LevelManager.cc:134] Could not find a plugin tag with name ignition::gazebo. Levels and distributed simulation will not work.
+process[tf_world_static-2]: started with pid [684]
+process[X1/ros1_ign_bridge_pose-2]: started with pid [685]
+Unable to read [/home/developer/subt_ws/install/share/subt_ign/worlds/virtual_stix.dot] file
+[Err] [VisibilityTable.cc:57] Unable to populate visibility graph using path[/home/developer/subt_ws/install/share/subt_ign/worlds/virtual_stix.dot]
+[Err] [VisibilityRfModel.cc:36] Unable to load visibility table data files
+New client registered [base_station]
+New endpoint registered [base_station:4000] for client [base_station]
+New endpoint registered [broadcast:4000] for client [base_station]
+[ INFO] [1561908255.425870146]: Storing callback for base_station:4000
+[ INFO] [1561908255.427739611]: Storing callback for broadcast:4000
+New endpoint registered [base_station:4100] for client [base_station]
+New endpoint registered [broadcast:4100] for client [base_station]
+[ INFO] [1561908255.429020011]: Storing callback for base_station:4100
+[ INFO] [1561908255.429117987]: Storing callback for broadcast:4100
+process[X1/ros1_ign_bridge_actuators-3]: started with pid [715]
+process[X1/ros1_ign_bridge_twist-4]: started with pid [741]
+process[X1/ros1_ign_bridge_camera-5]: started with pid [754]
+process[X1/ros1_ign_bridge_gpu_lidar-6]: started with pid [767]
+process[X1/ros1_ign_bridge_magnetometer-7]: started with pid [780]
+process[X1/ros1_ign_bridge_fluid_pressure-8]: started with pid [793]
+Failed to create a bridge for topic [/model/X1/air_pressure] with ROS1 type [sensor_msgs/FluidPressure] and Ignition Transport type [ignition.msgs.FluidPressure]
+process[X1/pose_tf_broadcaster-9]: started with pid [806]
+Topic [] is not valid.
+[Err] [SensorFactory.cc:129] Sensor::Load failed for plugin [ignition-sensors2-camera]
+[Err] [Sensors.cc:127] Failed to create sensor [X1::base::camera_front]
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202: [BUG] Segmentation fault at 0x0000000000000000
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
+
+-- Control frame information -----------------------------------------------
+c:0005 p:---- s:0044 e:000043 CFUNC  :call
+c:0004 p:0017 s:0039 e:000038 METHOD /usr/lib/ruby/ignition/cmdlaunch1.rb:202
+c:0003 p:0446 s:0033 e:000032 METHOD /usr/lib/ruby/ignition/cmdlaunch1.rb:202
+c:0002 p:0628 s:0019 E:001148 EVAL   /usr/bin/ign:267 [FINISH]
+c:0001 p:0000 s:0003 E:001da0 (none) [FINISH]
+
+-- Ruby level backtrace information ----------------------------------------
+/usr/bin/ign:267:in `<main>'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `execute'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `run'
+/usr/lib/ruby/ignition/cmdlaunch1.rb:202:in `call'
+
+-- Machine register context ------------------------------------------------
+ RIP: 0x00007f41bfbe0343 RBP: 0x00007f41bd5e7ba0 RSP: 0x00007f41bd5e7940
+ RAX: 0x0000000000000000 RBX: 0x00007f41bd5e7990 RCX: 0x0000000000000003
+ RDX: 0x00007f41b80008d0 RDI: 0x00007f41939b1970 RSI: 0x00007f41b8000900
+  R8: 0x000055c0fbc7dfd0  R9: 0x0000000000000008 R10: 0x000000000000004a
+ R11: 0x00007f41f2d6dd60 R12: 0x0000000000000000 R13: 0x000055c0fbf55780
+ R14: 0x00007f41f36437a0 R15: 0x00007f41f2fe20c0 EFL: 0x0000000000010246
+
+-- C level backtrace information -------------------------------------------
+/usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5(0x7f41f5ee1965) [0x7f41f5ee1965]
+/usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5(0x7f41f5ee1b9c) [0x7f41f5ee1b9c]
+/usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5(0x7f41f5dab884) [0x7f41f5dab884]
+/usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5(0x7f41f5e719a2) [0x7f41f5e719a2]
+/lib/x86_64-linux-gnu/libc.so.6(0x7f41f5971f20) [0x7f41f5971f20]
+/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo-sensors-system.so(0x7f41bfbe0343) [0x7f41bfbe0343]
+/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo-sensors-system.so(_ZNSt17_Function_handlerIFNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN3sdf2v86SensorERKS5_ESt5_BindIFMN8ignition6gazebo2v27systems7SensorsEFS5_SA_SC_EPSJ_St12_PlaceholderILi1EESN_ILi2EEEEE9_M_invokeERKSt9_Any_dataSA_SC_+0x3a) [0x7f41bfbe19aa]
+/usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2(_ZN8ignition6gazebo2v210RenderUtil6UpdateEv+0x897) [0x7f41bf98c5f7]
+/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo-sensors-system.so(_ZN8ignition6gazebo2v27systems7Sensors10PostUpdateERKNS1_10UpdateInfoERKNS1_22EntityComponentManagerE+0x50) [0x7f41bfbe17c0]
+/usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2(_ZN8ignition6gazebo2v216SimulationRunner13UpdateSystemsEv+0xc2) [0x7f41f23b4e02]
+/usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2(_ZN8ignition6gazebo2v216SimulationRunner4StepERKNS1_10UpdateInfoE+0x52) [0x7f41f23b89c2]
+/usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2(_ZN8ignition6gazebo2v216SimulationRunner3RunEm+0x3bb) [0x7f41f23b8ddb]
+/usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2(0x7f41f23b16b5) [0x7f41f23b16b5]
+/usr/lib/x86_64-linux-gnu/libstdc++.so.6(0x7f41f2d1866f) [0x7f41f2d1866f]
+/lib/x86_64-linux-gnu/libpthread.so.0(start_thread+0xdb) [0x7f41f571b6db]
+/lib/x86_64-linux-gnu/libc.so.6(clone+0x3f) [0x7f41f5a5488f] ../sysdeps/unix/sysv/linux/x86_64/clone.S:95
+
+-- Other runtime information -----------------------------------------------
+
+* Loaded script: /usr/bin/ign
+
+* Loaded features:
+
+    0 enumerator.so
+    1 thread.rb
+    2 rational.so
+    3 complex.so
+    4 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so
+    5 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so
+    6 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/rbconfig.rb
+    7 /usr/lib/ruby/2.5.0/rubygems/compatibility.rb
+    8 /usr/lib/ruby/2.5.0/rubygems/defaults.rb
+    9 /usr/lib/ruby/2.5.0/rubygems/deprecate.rb
+   10 /usr/lib/ruby/2.5.0/rubygems/errors.rb
+   11 /usr/lib/ruby/2.5.0/rubygems/version.rb
+   12 /usr/lib/ruby/2.5.0/rubygems/requirement.rb
+   13 /usr/lib/ruby/2.5.0/rubygems/platform.rb
+   14 /usr/lib/ruby/2.5.0/rubygems/basic_specification.rb
+   15 /usr/lib/ruby/2.5.0/rubygems/stub_specification.rb
+   16 /usr/lib/ruby/2.5.0/rubygems/util/list.rb
+   17 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so
+   18 /usr/lib/ruby/2.5.0/uri/rfc2396_parser.rb
+   19 /usr/lib/ruby/2.5.0/uri/rfc3986_parser.rb
+   20 /usr/lib/ruby/2.5.0/uri/common.rb
+   21 /usr/lib/ruby/2.5.0/uri/generic.rb
+   22 /usr/lib/ruby/2.5.0/uri/ftp.rb
+   23 /usr/lib/ruby/2.5.0/uri/http.rb
+   24 /usr/lib/ruby/2.5.0/uri/https.rb
+   25 /usr/lib/ruby/2.5.0/uri/ldap.rb
+   26 /usr/lib/ruby/2.5.0/uri/ldaps.rb
+   27 /usr/lib/ruby/2.5.0/uri/mailto.rb
+   28 /usr/lib/ruby/2.5.0/uri.rb
+   29 /usr/lib/ruby/2.5.0/rubygems/specification.rb
+   30 /usr/lib/ruby/2.5.0/rubygems/exceptions.rb
+   31 /usr/lib/ruby/vendor_ruby/rubygems/defaults/operating_system.rb
+   32 /usr/lib/ruby/2.5.0/rubygems/dependency.rb
+   33 /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_gem.rb
+   34 /usr/lib/ruby/2.5.0/monitor.rb
+   35 /usr/lib/ruby/2.5.0/rubygems/core_ext/kernel_require.rb
+   36 /usr/lib/ruby/2.5.0/rubygems.rb
+   37 /usr/lib/ruby/2.5.0/rubygems/path_support.rb
+   38 /usr/lib/ruby/vendor_ruby/did_you_mean/version.rb
+   39 /usr/lib/ruby/vendor_ruby/did_you_mean/core_ext/name_error.rb
+   40 /usr/lib/ruby/vendor_ruby/did_you_mean/levenshtein.rb
+   41 /usr/lib/ruby/vendor_ruby/did_you_mean/jaro_winkler.rb
+   42 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checker.rb
+   43 /usr/lib/ruby/2.5.0/delegate.rb
+   44 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/class_name_checker.rb
+   45 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers/variable_name_checker.rb
+   46 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/name_error_checkers.rb
+   47 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/method_name_checker.rb
+   48 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/key_error_checker.rb
+   49 /usr/lib/ruby/vendor_ruby/did_you_mean/spell_checkers/null_checker.rb
+   50 /usr/lib/ruby/vendor_ruby/did_you_mean/formatters/plain_formatter.rb
+   51 /usr/lib/ruby/vendor_ruby/did_you_mean.rb
+   52 /usr/lib/ruby/2.5.0/optparse.rb
+   53 /usr/lib/ruby/2.5.0/psych/versions.rb
+   54 /usr/lib/ruby/2.5.0/rubygems/bundler_version_finder.rb
+   55 /usr/lib/ruby/2.5.0/psych/exception.rb
+   56 /usr/lib/ruby/2.5.0/psych/syntax_error.rb
+   57 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/psych.so
+   58 /usr/lib/ruby/2.5.0/psych/omap.rb
+   59 /usr/lib/ruby/2.5.0/psych/set.rb
+   60 /usr/lib/ruby/2.5.0/psych/class_loader.rb
+   61 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/strscan.so
+   62 /usr/lib/ruby/2.5.0/psych/scalar_scanner.rb
+   63 /usr/lib/ruby/2.5.0/psych/nodes/node.rb
+   64 /usr/lib/ruby/2.5.0/psych/nodes/stream.rb
+   65 /usr/lib/ruby/2.5.0/psych/nodes/document.rb
+   66 /usr/lib/ruby/2.5.0/psych/nodes/sequence.rb
+   67 /usr/lib/ruby/2.5.0/psych/nodes/scalar.rb
+   68 /usr/lib/ruby/2.5.0/psych/nodes/mapping.rb
+   69 /usr/lib/ruby/2.5.0/psych/nodes/alias.rb
+   70 /usr/lib/ruby/2.5.0/psych/nodes.rb
+   71 /usr/lib/ruby/2.5.0/psych/streaming.rb
+   72 /usr/lib/ruby/2.5.0/psych/visitors/visitor.rb
+   73 /usr/lib/ruby/2.5.0/psych/visitors/to_ruby.rb
+   74 /usr/lib/ruby/2.5.0/psych/visitors/emitter.rb
+   75 /usr/lib/ruby/2.5.0/psych/handler.rb
+   76 /usr/lib/ruby/2.5.0/psych/tree_builder.rb
+   77 /usr/lib/ruby/2.5.0/psych/visitors/yaml_tree.rb
+   78 /usr/lib/ruby/2.5.0/psych/json/ruby_events.rb
+   79 /usr/lib/ruby/2.5.0/psych/visitors/json_tree.rb
+   80 /usr/lib/ruby/2.5.0/psych/visitors/depth_first.rb
+   81 /usr/lib/ruby/2.5.0/psych/visitors.rb
+   82 /usr/lib/ruby/2.5.0/psych/parser.rb
+   83 /usr/lib/ruby/2.5.0/psych/coder.rb
+   84 /usr/lib/ruby/2.5.0/psych/core_ext.rb
+   85 /usr/lib/ruby/2.5.0/psych/stream.rb
+   86 /usr/lib/ruby/2.5.0/psych/json/yaml_events.rb
+   87 /usr/lib/ruby/2.5.0/psych/json/tree_builder.rb
+   88 /usr/lib/ruby/2.5.0/psych/json/stream.rb
+   89 /usr/lib/ruby/2.5.0/psych/handlers/document_stream.rb
+   90 /usr/lib/ruby/2.5.0/psych.rb
+   91 /usr/lib/ruby/2.5.0/yaml.rb
+   92 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/fiddle.so
+   93 /usr/lib/ruby/2.5.0/fiddle/function.rb
+   94 /usr/lib/ruby/2.5.0/fiddle/closure.rb
+   95 /usr/lib/ruby/2.5.0/fiddle.rb
+   96 /usr/lib/ruby/2.5.0/fiddle/value.rb
+   97 /usr/lib/ruby/2.5.0/fiddle/pack.rb
+   98 /usr/lib/ruby/2.5.0/fiddle/struct.rb
+   99 /usr/lib/ruby/2.5.0/fiddle/cparser.rb
+  100 /usr/lib/ruby/2.5.0/fiddle/import.rb
+  101 /usr/lib/x86_64-linux-gnu/ruby/2.5.0/cgi/escape.so
+  102 /usr/lib/ruby/2.5.0/cgi/util.rb
+  103 /usr/lib/ruby/2.5.0/erb.rb
+  104 /usr/lib/ruby/ignition/cmdlaunch1.rb
+
+* Process memory map:
+
+403c0000-40461000 rw-p 00000000 00:00 0 
+40f1f000-40f21000 r-xs 00000000 08:07 1967269                            /tmp/.glKt6P8E (deleted)
+41b1d000-41bbe000 rw-p 00000000 00:00 0 
+55c0f98ef000-55c0f98f0000 r-xp 00000000 08:07 2374673                    /usr/bin/ruby2.5
+55c0f9aef000-55c0f9af0000 r--p 00000000 08:07 2374673                    /usr/bin/ruby2.5
+55c0f9af0000-55c0f9af1000 rw-p 00001000 08:07 2374673                    /usr/bin/ruby2.5
+55c0fa61d000-55c103948000 rw-p 00000000 00:00 0                          [heap]
+7f4158000000-7f41594e4000 rw-p 00000000 00:00 0 
+7f41594e4000-7f415c000000 ---p 00000000 00:00 0 
+7f415cffb000-7f4160ffb000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f4166ffc000-7f416cffe000 rw-p 00000000 00:00 0 
+7f416e0dc000-7f416effe000 r--s 00000000 08:07 2512057                    /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.27.so
+7f416effe000-7f4173000000 rw-p 00000000 00:00 0 
+7f4173000000-7f4174000000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f4174000000-7f4177ff4000 rw-p 00000000 00:00 0 
+7f4177ff4000-7f4178000000 ---p 00000000 00:00 0 
+7f41781d2000-7f4178358000 r--s 00000000 08:07 3027820                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7f4178358000-7f4178508000 r--s 00000000 08:07 413772                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2.1.0
+7f4178508000-7f41786f8000 r--s 00000000 08:07 2241045                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f41786f8000-7f417899a000 r--s 00000000 08:07 3027808                    /usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5.1
+7f417899a000-7f41789af000 r-xp 00000000 08:07 413814                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-camera.so.2.1.0
+7f41789af000-7f4178baf000 ---p 00015000 08:07 413814                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-camera.so.2.1.0
+7f4178baf000-7f4178bb0000 r--p 00015000 08:07 413814                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-camera.so.2.1.0
+7f4178bb0000-7f4178bb1000 rw-p 00016000 08:07 413814                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-camera.so.2.1.0
+7f4178bb1000-7f417abb2000 rw-p 00000000 00:00 0 
+7f417abb2000-7f417afb2000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f417afb2000-7f417b3b2000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f417b4b2000-7f417d4b3000 rw-p 00000000 00:00 0 
+7f417d4b3000-7f417dab3000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f417dab3000-7f417dbb3000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f417dbb3000-7f41803b4000 rw-p 00000000 00:00 0 
+7f41803b4000-7f41807b4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41807b4000-7f41808b4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41808b4000-7f4180cb4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f4180cb4000-7f41810b4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41810b4000-7f41812b4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41812b4000-7f41814b4000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41814b4000-7f41814b5000 ---p 00000000 00:00 0 
+7f41814b5000-7f4181cb5000 rw-p 00000000 00:00 0 
+7f4181cb5000-7f4181cb6000 ---p 00000000 00:00 0 
+7f4181cb6000-7f41824b6000 rw-p 00000000 00:00 0 
+7f41824b6000-7f41824b7000 ---p 00000000 00:00 0 
+7f41824b7000-7f4182cb7000 rw-p 00000000 00:00 0 
+7f4182cb7000-7f4182cb8000 ---p 00000000 00:00 0 
+7f4182cb8000-7f41834b8000 rw-p 00000000 00:00 0 
+7f41834b8000-7f41836b8000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41836b8000-7f4183ab8000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f4183ab8000-7f418bab9000 rw-p 00000000 00:00 0 
+7f418bab9000-7f418baf0000 r-xp 00000000 08:07 412917                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/Plugin_ParticleFX.so.2.1.0
+7f418baf0000-7f418bcef000 ---p 00037000 08:07 412917                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/Plugin_ParticleFX.so.2.1.0
+7f418bcef000-7f418bcf2000 r--p 00036000 08:07 412917                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/Plugin_ParticleFX.so.2.1.0
+7f418bcf2000-7f418bcf3000 rw-p 00039000 08:07 412917                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/Plugin_ParticleFX.so.2.1.0
+7f418bcf3000-7f418bcfc000 r-xp 00000000 08:07 699720                     /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f418bcfc000-7f418befb000 ---p 00009000 08:07 699720                     /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f418befb000-7f418befc000 r--p 00008000 08:07 699720                     /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f418befc000-7f418befd000 rw-p 00009000 08:07 699720                     /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0
+7f418befd000-7f418bf07000 r-xp 00000000 08:07 699718                     /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f418bf07000-7f418c106000 ---p 0000a000 08:07 699718                     /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f418c106000-7f418c107000 r--p 00009000 08:07 699718                     /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f418c107000-7f418c108000 rw-p 0000a000 08:07 699718                     /usr/lib/x86_64-linux-gnu/libXrandr.so.2.2.0
+7f418c108000-7f418c1cf000 r-xp 00000000 08:07 412919                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/RenderSystem_GL3Plus.so.2.1.0
+7f418c1cf000-7f418c3cf000 ---p 000c7000 08:07 412919                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/RenderSystem_GL3Plus.so.2.1.0
+7f418c3cf000-7f418c3d6000 r--p 000c7000 08:07 412919                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/RenderSystem_GL3Plus.so.2.1.0
+7f418c3d6000-7f418c3d7000 rw-p 000ce000 08:07 412919                     /usr/lib/x86_64-linux-gnu/OGRE-2.1/OGRE/RenderSystem_GL3Plus.so.2.1.0
+7f418c3d7000-7f418c3d8000 rw-p 00000000 00:00 0 
+7f418c3d8000-7f418d7f7000 r-xp 00000000 08:07 693320                     /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.390.116
+7f418d7f7000-7f418d818000 rwxp 0141f000 08:07 693320                     /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.390.116
+7f418d818000-7f418dc54000 r-xp 01440000 08:07 693320                     /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.390.116
+7f418dc54000-7f418de53000 ---p 0187c000 08:07 693320                     /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.390.116
+7f418de53000-7f418e1c6000 rw-p 0187b000 08:07 693320                     /usr/lib/x86_64-linux-gnu/libnvidia-glcore.so.390.116
+7f418e1c6000-7f418e1e0000 rw-p 00000000 00:00 0 
+7f418e1e0000-7f418e1e3000 r-xp 00000000 08:07 693327                     /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.390.116
+7f418e1e3000-7f418e3e3000 ---p 00003000 08:07 693327                     /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.390.116
+7f418e3e3000-7f418e3e4000 rw-p 00003000 08:07 693327                     /usr/lib/x86_64-linux-gnu/libnvidia-tls.so.390.116
+7f418e3e4000-7f418e4ad000 r-xp 00000000 08:07 693317                     /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.390.116
+7f418e4ad000-7f418e4e1000 rwxp 000c9000 08:07 693317                     /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.390.116
+7f418e4e1000-7f418e4f5000 r-xp 000fd000 08:07 693317                     /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.390.116
+7f418e4f5000-7f418e6f5000 ---p 00111000 08:07 693317                     /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.390.116
+7f418e6f5000-7f418e71a000 rw-p 00111000 08:07 693317                     /usr/lib/x86_64-linux-gnu/libGLX_nvidia.so.390.116
+7f418e71a000-7f418e721000 rw-p 00000000 00:00 0 
+7f418e721000-7f418e732000 r-xp 00000000 08:07 699716                     /usr/lib/x86_64-linux-gnu/libXpm.so.4.11.0
+7f418e732000-7f418e931000 ---p 00011000 08:07 699716                     /usr/lib/x86_64-linux-gnu/libXpm.so.4.11.0
+7f418e931000-7f418e932000 r--p 00010000 08:07 699716                     /usr/lib/x86_64-linux-gnu/libXpm.so.4.11.0
+7f418e932000-7f418e933000 rw-p 00011000 08:07 699716                     /usr/lib/x86_64-linux-gnu/libXpm.so.4.11.0
+7f418e933000-7f418e94b000 r-xp 00000000 08:07 699714                     /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0
+7f418e94b000-7f418eb4a000 ---p 00018000 08:07 699714                     /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0
+7f418eb4a000-7f418eb4b000 r--p 00017000 08:07 699714                     /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0
+7f418eb4b000-7f418eb4c000 rw-p 00018000 08:07 699714                     /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0
+7f418eb4c000-7f418eb5d000 r-xp 00000000 08:07 2758980                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f418eb5d000-7f418ed5c000 ---p 00011000 08:07 2758980                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f418ed5c000-7f418ed5d000 r--p 00010000 08:07 2758980                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f418ed5d000-7f418ed5e000 rw-p 00011000 08:07 2758980                    /usr/lib/x86_64-linux-gnu/libXext.so.6.4.0
+7f418ed5e000-7f418ed75000 r-xp 00000000 08:07 699592                     /usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+7f418ed75000-7f418ef74000 ---p 00017000 08:07 699592                     /usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+7f418ef74000-7f418ef75000 r--p 00016000 08:07 699592                     /usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+7f418ef75000-7f418ef76000 rw-p 00017000 08:07 699592                     /usr/lib/x86_64-linux-gnu/libICE.so.6.3.0
+7f418ef76000-7f418ef79000 rw-p 00000000 00:00 0 
+7f418ef79000-7f418ef80000 r-xp 00000000 08:07 699699                     /usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+7f418ef80000-7f418f17f000 ---p 00007000 08:07 699699                     /usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+7f418f17f000-7f418f180000 r--p 00006000 08:07 699699                     /usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+7f418f180000-7f418f181000 rw-p 00007000 08:07 699699                     /usr/lib/x86_64-linux-gnu/libSM.so.6.0.1
+7f418f181000-7f418f22e000 r-xp 00000000 08:07 700024                     /usr/lib/x86_64-linux-gnu/libfreetype.so.6.15.0
+7f418f22e000-7f418f42d000 ---p 000ad000 08:07 700024                     /usr/lib/x86_64-linux-gnu/libfreetype.so.6.15.0
+7f418f42d000-7f418f434000 r--p 000ac000 08:07 700024                     /usr/lib/x86_64-linux-gnu/libfreetype.so.6.15.0
+7f418f434000-7f418f435000 rw-p 000b3000 08:07 700024                     /usr/lib/x86_64-linux-gnu/libfreetype.so.6.15.0
+7f418f435000-7f418f43b000 r-xp 00000000 08:07 702077                     /usr/lib/x86_64-linux-gnu/libzzip-0.so.13.0.62
+7f418f43b000-7f418f63a000 ---p 00006000 08:07 702077                     /usr/lib/x86_64-linux-gnu/libzzip-0.so.13.0.62
+7f418f63a000-7f418f63b000 r--p 00005000 08:07 702077                     /usr/lib/x86_64-linux-gnu/libzzip-0.so.13.0.62
+7f418f63b000-7f418f63c000 rw-p 00006000 08:07 702077                     /usr/lib/x86_64-linux-gnu/libzzip-0.so.13.0.62
+7f418f63c000-7f418f6a5000 r-xp 00000000 08:07 699702                     /usr/lib/x86_64-linux-gnu/libXaw7.so.7.0.0
+7f418f6a5000-7f418f8a4000 ---p 00069000 08:07 699702                     /usr/lib/x86_64-linux-gnu/libXaw7.so.7.0.0
+7f418f8a4000-7f418f8a5000 r--p 00068000 08:07 699702                     /usr/lib/x86_64-linux-gnu/libXaw7.so.7.0.0
+7f418f8a5000-7f418f8af000 rw-p 00069000 08:07 699702                     /usr/lib/x86_64-linux-gnu/libXaw7.so.7.0.0
+7f418f8af000-7f418f8b0000 rw-p 00000000 00:00 0 
+7f418f8b0000-7f418f912000 r-xp 00000000 08:07 699724                     /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0
+7f418f912000-7f418fb12000 ---p 00062000 08:07 699724                     /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0
+7f418fb12000-7f418fb13000 r--p 00062000 08:07 699724                     /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0
+7f418fb13000-7f418fb18000 rw-p 00063000 08:07 699724                     /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0
+7f418fb18000-7f418fb19000 rw-p 00000000 00:00 0 
+7f418fb19000-7f418fb5b000 r-xp 00000000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fb5b000-7f418fb74000 r-xp 00042000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fb74000-7f418fb87000 r-xp 0005b000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fb87000-7f418fd86000 ---p 0006e000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fd86000-7f418fdae000 r--p 0006d000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fdae000-7f418fdaf000 rw-p 00095000 08:07 2759988                    /usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0
+7f418fdaf000-7f418fdcf000 rw-p 00000000 00:00 0 
+7f418fdcf000-7f418fddf000 r-xp 00000000 08:07 2759983                    /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+7f418fddf000-7f418ffde000 ---p 00010000 08:07 2759983                    /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+7f418ffde000-7f418ffdf000 r--p 0000f000 08:07 2759983                    /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+7f418ffdf000-7f418ffe0000 rw-p 00010000 08:07 2759983                    /usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0
+7f418ffe0000-7f4190000000 rw-p 00000000 00:00 0 
+7f4190000000-7f4197e6a000 rw-p 00000000 00:00 0 
+7f4197e6a000-7f4198000000 ---p 00000000 00:00 0 
+7f4198000000-7f4198021000 rw-p 00000000 00:00 0 
+7f4198021000-7f419c000000 ---p 00000000 00:00 0 
+7f419c000000-7f419c021000 rw-p 00000000 00:00 0 
+7f419c021000-7f41a0000000 ---p 00000000 00:00 0 
+7f41a0000000-7f41a0021000 rw-p 00000000 00:00 0 
+7f41a0021000-7f41a4000000 ---p 00000000 00:00 0 
+7f41a4000000-7f41a4021000 rw-p 00000000 00:00 0 
+7f41a4021000-7f41a8000000 ---p 00000000 00:00 0 
+7f41a8000000-7f41a8021000 rw-p 00000000 00:00 0 
+7f41a8021000-7f41ac000000 ---p 00000000 00:00 0 
+7f41ac05f000-7f41ac0d2000 r--s 00000000 08:07 413754                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2.1.0
+7f41ac0d2000-7f41ac12d000 r-xp 00000000 08:07 413512                     /usr/lib/x86_64-linux-gnu/libOgreOverlay.so.2.1.0
+7f41ac12d000-7f41ac32d000 ---p 0005b000 08:07 413512                     /usr/lib/x86_64-linux-gnu/libOgreOverlay.so.2.1.0
+7f41ac32d000-7f41ac331000 r--p 0005b000 08:07 413512                     /usr/lib/x86_64-linux-gnu/libOgreOverlay.so.2.1.0
+7f41ac331000-7f41ac332000 rw-p 0005f000 08:07 413512                     /usr/lib/x86_64-linux-gnu/libOgreOverlay.so.2.1.0
+7f41ac332000-7f41ac350000 r-xp 00000000 08:07 413508                     /usr/lib/x86_64-linux-gnu/libOgreHlmsUnlit.so.2.1.0
+7f41ac350000-7f41ac54f000 ---p 0001e000 08:07 413508                     /usr/lib/x86_64-linux-gnu/libOgreHlmsUnlit.so.2.1.0
+7f41ac54f000-7f41ac551000 r--p 0001d000 08:07 413508                     /usr/lib/x86_64-linux-gnu/libOgreHlmsUnlit.so.2.1.0
+7f41ac551000-7f41ac552000 rw-p 0001f000 08:07 413508                     /usr/lib/x86_64-linux-gnu/libOgreHlmsUnlit.so.2.1.0
+7f41ac552000-7f41ac5a7000 r-xp 00000000 08:07 413506                     /usr/lib/x86_64-linux-gnu/libOgreHlmsPbs.so.2.1.0
+7f41ac5a7000-7f41ac7a7000 ---p 00055000 08:07 413506                     /usr/lib/x86_64-linux-gnu/libOgreHlmsPbs.so.2.1.0
+7f41ac7a7000-7f41ac7a9000 r--p 00055000 08:07 413506                     /usr/lib/x86_64-linux-gnu/libOgreHlmsPbs.so.2.1.0
+7f41ac7a9000-7f41ac7aa000 rw-p 00057000 08:07 413506                     /usr/lib/x86_64-linux-gnu/libOgreHlmsPbs.so.2.1.0
+7f41ac7aa000-7f41acd72000 r-xp 00000000 08:07 413510                     /usr/lib/x86_64-linux-gnu/libOgreMain.so.2.1.0
+7f41acd72000-7f41acf71000 ---p 005c8000 08:07 413510                     /usr/lib/x86_64-linux-gnu/libOgreMain.so.2.1.0
+7f41acf71000-7f41acf94000 r--p 005c7000 08:07 413510                     /usr/lib/x86_64-linux-gnu/libOgreMain.so.2.1.0
+7f41acf94000-7f41acf97000 rw-p 005ea000 08:07 413510                     /usr/lib/x86_64-linux-gnu/libOgreMain.so.2.1.0
+7f41acf97000-7f41acfa1000 rw-p 00000000 00:00 0 
+7f41acfa1000-7f41acfe5000 r-xp 00000000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41acfe5000-7f41acffe000 r-xp 00044000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41acffe000-7f41ad012000 r-xp 0005d000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41ad012000-7f41ad211000 ---p 00071000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41ad211000-7f41ad22b000 r--p 00070000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41ad22b000-7f41ad22c000 rw-p 0008a000 08:07 2759979                    /usr/lib/x86_64-linux-gnu/libGL.so.1.0.0
+7f41ad22c000-7f41ad22d000 rw-p 00000000 00:00 0 
+7f41ad22d000-7f41ad374000 r-xp 00000000 08:07 413802                     /usr/lib/x86_64-linux-gnu/libignition-rendering2-ogre2.so.2.0.0
+7f41ad374000-7f41ad574000 ---p 00147000 08:07 413802                     /usr/lib/x86_64-linux-gnu/libignition-rendering2-ogre2.so.2.0.0
+7f41ad574000-7f41ad5bc000 r--p 00147000 08:07 413802                     /usr/lib/x86_64-linux-gnu/libignition-rendering2-ogre2.so.2.0.0
+7f41ad5bc000-7f41ad5bd000 rw-p 0018f000 08:07 413802                     /usr/lib/x86_64-linux-gnu/libignition-rendering2-ogre2.so.2.0.0
+7f41ad5bd000-7f41ad5be000 rw-p 00000000 00:00 0 
+7f41ad5be000-7f41ad5f9000 r-xp 00000000 08:07 413455                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.1.0
+7f41ad5f9000-7f41ad7f8000 ---p 0003b000 08:07 413455                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.1.0
+7f41ad7f8000-7f41ad7fa000 r--p 0003a000 08:07 413455                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.1.0
+7f41ad7fa000-7f41ad7fb000 rw-p 0003c000 08:07 413455                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-pose-publisher-system.so.2.1.0
+7f41ad7fb000-7f41ad7fc000 ---p 00000000 00:00 0 
+7f41ad7fc000-7f41adffc000 rw-p 00000000 00:00 0 
+7f41adffc000-7f41adffd000 ---p 00000000 00:00 0 
+7f41adffd000-7f41ae7fd000 rw-p 00000000 00:00 0 
+7f41ae7fd000-7f41ae7fe000 ---p 00000000 00:00 0 
+7f41ae7fe000-7f41aeffe000 rw-p 00000000 00:00 0 
+7f41aeffe000-7f41aefff000 ---p 00000000 00:00 0 
+7f41aefff000-7f41af7ff000 rw-p 00000000 00:00 0 
+7f41af7ff000-7f41af800000 ---p 00000000 00:00 0 
+7f41af800000-7f41b0000000 rw-p 00000000 00:00 0 
+7f41b0000000-7f41b0037000 rw-p 00000000 00:00 0 
+7f41b0037000-7f41b4000000 ---p 00000000 00:00 0 
+7f41b4068000-7f41b40e8000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41b40e8000-7f41b410a000 r-xp 00000000 08:07 413422                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.1.0
+7f41b410a000-7f41b4309000 ---p 00022000 08:07 413422                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.1.0
+7f41b4309000-7f41b430a000 r--p 00021000 08:07 413422                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.1.0
+7f41b430a000-7f41b430b000 rw-p 00022000 08:07 413422                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-diff-drive-system.so.2.1.0
+7f41b430b000-7f41b430c000 ---p 00000000 00:00 0 
+7f41b430c000-7f41b530d000 rw-p 00000000 00:00 0 
+7f41b530d000-7f41b5411000 r-xp 00000000 08:07 1865433                    /home/developer/subt_ws/install/lib/libGameLogicPlugin.so
+7f41b5411000-7f41b5610000 ---p 00104000 08:07 1865433                    /home/developer/subt_ws/install/lib/libGameLogicPlugin.so
+7f41b5610000-7f41b5612000 r--p 00103000 08:07 1865433                    /home/developer/subt_ws/install/lib/libGameLogicPlugin.so
+7f41b5612000-7f41b5618000 rw-p 00105000 08:07 1865433                    /home/developer/subt_ws/install/lib/libGameLogicPlugin.so
+7f41b5618000-7f41b561b000 r-xp 00000000 08:07 699970                     /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+7f41b561b000-7f41b581b000 ---p 00003000 08:07 699970                     /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+7f41b581b000-7f41b581c000 r--p 00003000 08:07 699970                     /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+7f41b581c000-7f41b581d000 rw-p 00004000 08:07 699970                     /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+7f41b581d000-7f41b5821000 r-xp 00000000 08:07 699794                     /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.65.1
+7f41b5821000-7f41b5a20000 ---p 00004000 08:07 699794                     /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.65.1
+7f41b5a20000-7f41b5a21000 r--p 00003000 08:07 699794                     /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.65.1
+7f41b5a21000-7f41b5a22000 rw-p 00004000 08:07 699794                     /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.65.1
+7f41b5a22000-7f41b5a45000 r-xp 00000000 08:07 699923                     /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1
+7f41b5a45000-7f41b5c44000 ---p 00023000 08:07 699923                     /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1
+7f41b5c44000-7f41b5c46000 r--p 00022000 08:07 699923                     /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1
+7f41b5c46000-7f41b5c47000 rw-p 00024000 08:07 699923                     /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.65.1
+7f41b5c47000-7f41b5c51000 r-xp 00000000 08:07 416798                     /opt/ros/melodic/lib/libcpp_common.so
+7f41b5c51000-7f41b5e50000 ---p 0000a000 08:07 416798                     /opt/ros/melodic/lib/libcpp_common.so
+7f41b5e50000-7f41b5e51000 r--p 00009000 08:07 416798                     /opt/ros/melodic/lib/libcpp_common.so
+7f41b5e51000-7f41b5e52000 rw-p 0000a000 08:07 416798                     /opt/ros/melodic/lib/libcpp_common.so
+7f41b5e52000-7f41b5e6f000 r-xp 00000000 08:07 416865                     /opt/ros/melodic/lib/libxmlrpcpp.so
+7f41b5e6f000-7f41b606e000 ---p 0001d000 08:07 416865                     /opt/ros/melodic/lib/libxmlrpcpp.so
+7f41b606e000-7f41b606f000 r--p 0001c000 08:07 416865                     /opt/ros/melodic/lib/libxmlrpcpp.so
+7f41b606f000-7f41b6070000 rw-p 0001d000 08:07 416865                     /opt/ros/melodic/lib/libxmlrpcpp.so
+7f41b6070000-7f41b6072000 r-xp 00000000 08:07 416842                     /opt/ros/melodic/lib/libroscpp_serialization.so
+7f41b6072000-7f41b6271000 ---p 00002000 08:07 416842                     /opt/ros/melodic/lib/libroscpp_serialization.so
+7f41b6271000-7f41b6272000 r--p 00001000 08:07 416842                     /opt/ros/melodic/lib/libroscpp_serialization.so
+7f41b6272000-7f41b6273000 rw-p 00002000 08:07 416842                     /opt/ros/melodic/lib/libroscpp_serialization.so
+7f41b6273000-7f41b6406000 r-xp 00000000 08:07 416841                     /opt/ros/melodic/lib/libroscpp.so
+7f41b6406000-7f41b6605000 ---p 00193000 08:07 416841                     /opt/ros/melodic/lib/libroscpp.so
+7f41b6605000-7f41b660c000 r--p 00192000 08:07 416841                     /opt/ros/melodic/lib/libroscpp.so
+7f41b660c000-7f41b6610000 rw-p 00199000 08:07 416841                     /opt/ros/melodic/lib/libroscpp.so
+7f41b6610000-7f41b661c000 r-xp 00000000 08:07 1865437                    /home/developer/subt_ws/install/lib/libSubtProtobuf.so
+7f41b661c000-7f41b681b000 ---p 0000c000 08:07 1865437                    /home/developer/subt_ws/install/lib/libSubtProtobuf.so
+7f41b681b000-7f41b681c000 r--p 0000b000 08:07 1865437                    /home/developer/subt_ws/install/lib/libSubtProtobuf.so
+7f41b681c000-7f41b681d000 rw-p 0000c000 08:07 1865437                    /home/developer/subt_ws/install/lib/libSubtProtobuf.so
+7f41b681d000-7f41b68b6000 r-xp 00000000 08:07 1865441                    /home/developer/subt_ws/install/lib/libsubt_communication_client.so
+7f41b68b6000-7f41b6ab5000 ---p 00099000 08:07 1865441                    /home/developer/subt_ws/install/lib/libsubt_communication_client.so
+7f41b6ab5000-7f41b6ab6000 r--p 00098000 08:07 1865441                    /home/developer/subt_ws/install/lib/libsubt_communication_client.so
+7f41b6ab6000-7f41b6aba000 rw-p 00099000 08:07 1865441                    /home/developer/subt_ws/install/lib/libsubt_communication_client.so
+7f41b6aba000-7f41b6b2e000 r-xp 00000000 08:07 1865427                    /home/developer/subt_ws/install/lib/libBaseStationPlugin.so
+7f41b6b2e000-7f41b6d2d000 ---p 00074000 08:07 1865427                    /home/developer/subt_ws/install/lib/libBaseStationPlugin.so
+7f41b6d2d000-7f41b6d2e000 r--p 00073000 08:07 1865427                    /home/developer/subt_ws/install/lib/libBaseStationPlugin.so
+7f41b6d2e000-7f41b6d31000 rw-p 00074000 08:07 1865427                    /home/developer/subt_ws/install/lib/libBaseStationPlugin.so
+7f41b6d31000-7f41b6d60000 r-xp 00000000 08:07 2374483                    /lib/x86_64-linux-gnu/libexpat.so.1.6.7
+7f41b6d60000-7f41b6f60000 ---p 0002f000 08:07 2374483                    /lib/x86_64-linux-gnu/libexpat.so.1.6.7
+7f41b6f60000-7f41b6f62000 r--p 0002f000 08:07 2374483                    /lib/x86_64-linux-gnu/libexpat.so.1.6.7
+7f41b6f62000-7f41b6f63000 rw-p 00031000 08:07 2374483                    /lib/x86_64-linux-gnu/libexpat.so.1.6.7
+7f41b6f63000-7f41b6f8d000 r-xp 00000000 08:07 699740                     /usr/lib/x86_64-linux-gnu/libaprutil-1.so.0.6.1
+7f41b6f8d000-7f41b718c000 ---p 0002a000 08:07 699740                     /usr/lib/x86_64-linux-gnu/libaprutil-1.so.0.6.1
+7f41b718c000-7f41b718d000 r--p 00029000 08:07 699740                     /usr/lib/x86_64-linux-gnu/libaprutil-1.so.0.6.1
+7f41b718d000-7f41b718e000 rw-p 0002a000 08:07 699740                     /usr/lib/x86_64-linux-gnu/libaprutil-1.so.0.6.1
+7f41b718e000-7f41b71c1000 r-xp 00000000 08:07 699735                     /usr/lib/x86_64-linux-gnu/libapr-1.so.0.6.3
+7f41b71c1000-7f41b73c1000 ---p 00033000 08:07 699735                     /usr/lib/x86_64-linux-gnu/libapr-1.so.0.6.3
+7f41b73c1000-7f41b73c2000 r--p 00033000 08:07 699735                     /usr/lib/x86_64-linux-gnu/libapr-1.so.0.6.3
+7f41b73c2000-7f41b73c3000 rw-p 00034000 08:07 699735                     /usr/lib/x86_64-linux-gnu/libapr-1.so.0.6.3
+7f41b73c3000-7f41b7564000 r-xp 00000000 08:07 700778                     /usr/lib/x86_64-linux-gnu/liblog4cxx.so.10.0.0
+7f41b7564000-7f41b7764000 ---p 001a1000 08:07 700778                     /usr/lib/x86_64-linux-gnu/liblog4cxx.so.10.0.0
+7f41b7764000-7f41b778a000 r--p 001a1000 08:07 700778                     /usr/lib/x86_64-linux-gnu/liblog4cxx.so.10.0.0
+7f41b778a000-7f41b778b000 rw-p 001c7000 08:07 700778                     /usr/lib/x86_64-linux-gnu/liblog4cxx.so.10.0.0
+7f41b778b000-7f41b778c000 rw-p 00000000 00:00 0 
+7f41b778c000-7f41b778d000 r-xp 00000000 08:07 416838                     /opt/ros/melodic/lib/librosconsole_backend_interface.so
+7f41b778d000-7f41b798c000 ---p 00001000 08:07 416838                     /opt/ros/melodic/lib/librosconsole_backend_interface.so
+7f41b798c000-7f41b798d000 r--p 00000000 08:07 416838                     /opt/ros/melodic/lib/librosconsole_backend_interface.so
+7f41b798d000-7f41b798e000 rw-p 00001000 08:07 416838                     /opt/ros/melodic/lib/librosconsole_backend_interface.so
+7f41b798e000-7f41b79a7000 r-xp 00000000 08:07 416840                     /opt/ros/melodic/lib/librosconsole_log4cxx.so
+7f41b79a7000-7f41b7ba6000 ---p 00019000 08:07 416840                     /opt/ros/melodic/lib/librosconsole_log4cxx.so
+7f41b7ba6000-7f41b7ba8000 r--p 00018000 08:07 416840                     /opt/ros/melodic/lib/librosconsole_log4cxx.so
+7f41b7ba8000-7f41b7ba9000 rw-p 0001a000 08:07 416840                     /opt/ros/melodic/lib/librosconsole_log4cxx.so
+7f41b7ba9000-7f41b7bc8000 r-xp 00000000 08:07 416846                     /opt/ros/melodic/lib/librostime.so
+7f41b7bc8000-7f41b7dc7000 ---p 0001f000 08:07 416846                     /opt/ros/melodic/lib/librostime.so
+7f41b7dc7000-7f41b7dc9000 r--p 0001e000 08:07 416846                     /opt/ros/melodic/lib/librostime.so
+7f41b7dc9000-7f41b7dca000 rw-p 00020000 08:07 416846                     /opt/ros/melodic/lib/librostime.so
+7f41b7dca000-7f41b7dfd000 r-xp 00000000 08:07 416837                     /opt/ros/melodic/lib/librosconsole.so
+7f41b7dfd000-7f41b7ffd000 ---p 00033000 08:07 416837                     /opt/ros/melodic/lib/librosconsole.so
+7f41b7ffd000-7f41b7fff000 r--p 00033000 08:07 416837                     /opt/ros/melodic/lib/librosconsole.so
+7f41b7fff000-7f41b8000000 rw-p 00035000 08:07 416837                     /opt/ros/melodic/lib/librosconsole.so
+7f41b8000000-7f41bbfad000 rw-p 00000000 00:00 0 
+7f41bbfad000-7f41bc000000 ---p 00000000 00:00 0 
+7f41bc020000-7f41bc0a0000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41bc0a0000-7f41bc120000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41bc120000-7f41bc17e000 r-xp 00000000 08:07 1865435                    /home/developer/subt_ws/install/lib/libSubtCommsProtobuf.so
+7f41bc17e000-7f41bc37e000 ---p 0005e000 08:07 1865435                    /home/developer/subt_ws/install/lib/libSubtCommsProtobuf.so
+7f41bc37e000-7f41bc37f000 r--p 0005e000 08:07 1865435                    /home/developer/subt_ws/install/lib/libSubtCommsProtobuf.so
+7f41bc37f000-7f41bc381000 rw-p 0005f000 08:07 1865435                    /home/developer/subt_ws/install/lib/libSubtCommsProtobuf.so
+7f41bc381000-7f41bc383000 r-xp 00000000 08:07 1865445                    /home/developer/subt_ws/install/lib/libsubt_rf_range_model.so
+7f41bc383000-7f41bc582000 ---p 00002000 08:07 1865445                    /home/developer/subt_ws/install/lib/libsubt_rf_range_model.so
+7f41bc582000-7f41bc583000 r--p 00001000 08:07 1865445                    /home/developer/subt_ws/install/lib/libsubt_rf_range_model.so
+7f41bc583000-7f41bc584000 rw-p 00002000 08:07 1865445                    /home/developer/subt_ws/install/lib/libsubt_rf_range_model.so
+7f41bc584000-7f41bc58f000 r-xp 00000000 08:07 1865443                    /home/developer/subt_ws/install/lib/libsubt_communication_model.so
+7f41bc58f000-7f41bc78e000 ---p 0000b000 08:07 1865443                    /home/developer/subt_ws/install/lib/libsubt_communication_model.so
+7f41bc78e000-7f41bc78f000 r--p 0000a000 08:07 1865443                    /home/developer/subt_ws/install/lib/libsubt_communication_model.so
+7f41bc78f000-7f41bc790000 rw-p 0000b000 08:07 1865443                    /home/developer/subt_ws/install/lib/libsubt_communication_model.so
+7f41bc790000-7f41bc85c000 r-xp 00000000 08:07 1865439                    /home/developer/subt_ws/install/lib/libsubt_communication_broker.so
+7f41bc85c000-7f41bca5c000 ---p 000cc000 08:07 1865439                    /home/developer/subt_ws/install/lib/libsubt_communication_broker.so
+7f41bca5c000-7f41bca5d000 r--p 000cc000 08:07 1865439                    /home/developer/subt_ws/install/lib/libsubt_communication_broker.so
+7f41bca5d000-7f41bca62000 rw-p 000cd000 08:07 1865439                    /home/developer/subt_ws/install/lib/libsubt_communication_broker.so
+7f41bca62000-7f41bcbde000 r-xp 00000000 08:07 1865429                    /home/developer/subt_ws/install/lib/libCommsBrokerPlugin.so
+7f41bcbde000-7f41bcddd000 ---p 0017c000 08:07 1865429                    /home/developer/subt_ws/install/lib/libCommsBrokerPlugin.so
+7f41bcddd000-7f41bcddf000 r--p 0017b000 08:07 1865429                    /home/developer/subt_ws/install/lib/libCommsBrokerPlugin.so
+7f41bcddf000-7f41bcde8000 rw-p 0017d000 08:07 1865429                    /home/developer/subt_ws/install/lib/libCommsBrokerPlugin.so
+7f41bcde8000-7f41bcde9000 ---p 00000000 00:00 0 
+7f41bcde9000-7f41bd5e9000 rw-p 00000000 00:00 0 
+7f41bd5e9000-7f41bd5f5000 r-xp 00000000 08:07 413808                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-air_pressure.so.2.1.0
+7f41bd5f5000-7f41bd7f5000 ---p 0000c000 08:07 413808                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-air_pressure.so.2.1.0
+7f41bd7f5000-7f41bd7f6000 r--p 0000c000 08:07 413808                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-air_pressure.so.2.1.0
+7f41bd7f6000-7f41bd7f7000 rw-p 0000d000 08:07 413808                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-air_pressure.so.2.1.0
+7f41bd7f7000-7f41bd820000 r-xp 00000000 08:07 413410                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.1.0
+7f41bd820000-7f41bda1f000 ---p 00029000 08:07 413410                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.1.0
+7f41bda1f000-7f41bda21000 r--p 00028000 08:07 413410                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.1.0
+7f41bda21000-7f41bda22000 rw-p 0002a000 08:07 413410                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-air-pressure-system.so.2.1.0
+7f41bda22000-7f41bda2f000 r-xp 00000000 08:07 413832                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-magnetometer.so.2.1.0
+7f41bda2f000-7f41bdc2e000 ---p 0000d000 08:07 413832                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-magnetometer.so.2.1.0
+7f41bdc2e000-7f41bdc2f000 r--p 0000c000 08:07 413832                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-magnetometer.so.2.1.0
+7f41bdc2f000-7f41bdc30000 rw-p 0000d000 08:07 413832                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-magnetometer.so.2.1.0
+7f41bdc30000-7f41bdc61000 r-xp 00000000 08:07 413446                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.1.0
+7f41bdc61000-7f41bde60000 ---p 00031000 08:07 413446                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.1.0
+7f41bde60000-7f41bde62000 r--p 00030000 08:07 413446                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.1.0
+7f41bde62000-7f41bde63000 rw-p 00032000 08:07 413446                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-magnetometer-system.so.2.1.0
+7f41bde63000-7f41bde71000 r-xp 00000000 08:07 413823                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-imu.so.2.1.0
+7f41bde71000-7f41be070000 ---p 0000e000 08:07 413823                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-imu.so.2.1.0
+7f41be070000-7f41be071000 r--p 0000d000 08:07 413823                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-imu.so.2.1.0
+7f41be071000-7f41be072000 rw-p 0000e000 08:07 413823                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-imu.so.2.1.0
+7f41be072000-7f41be0b0000 r-xp 00000000 08:07 413425                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.1.0
+7f41be0b0000-7f41be2b0000 ---p 0003e000 08:07 413425                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.1.0
+7f41be2b0000-7f41be2b2000 r--p 0003e000 08:07 413425                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.1.0
+7f41be2b2000-7f41be2b3000 rw-p 00040000 08:07 413425                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-imu-system.so.2.1.0
+7f41be2b3000-7f41be31b000 r-xp 00000000 08:07 413458                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.1.0
+7f41be31b000-7f41be51b000 ---p 00068000 08:07 413458                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.1.0
+7f41be51b000-7f41be51d000 r--p 00068000 08:07 413458                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.1.0
+7f41be51d000-7f41be51e000 rw-p 0006a000 08:07 413458                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-scene-broadcaster-system.so.2.1.0
+7f41be51e000-7f41be561000 r-xp 00000000 08:07 413467                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.1.0
+7f41be561000-7f41be760000 ---p 00043000 08:07 413467                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.1.0
+7f41be760000-7f41be762000 r--p 00042000 08:07 413467                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.1.0
+7f41be762000-7f41be763000 rw-p 00044000 08:07 413467                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-user-commands-system.so.2.1.0
+7f41be763000-7f41be776000 r-xp 00000000 08:07 2758695                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f41be776000-7f41be975000 ---p 00013000 08:07 2758695                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f41be975000-7f41be976000 r--p 00012000 08:07 2758695                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f41be976000-7f41be977000 rw-p 00013000 08:07 2758695                    /lib/x86_64-linux-gnu/libbsd.so.0.8.7
+7f41be977000-7f41be978000 rw-p 00000000 00:00 0 
+7f41be978000-7f41be97d000 r-xp 00000000 08:07 2758978                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f41be97d000-7f41beb7c000 ---p 00005000 08:07 2758978                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f41beb7c000-7f41beb7d000 r--p 00004000 08:07 2758978                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f41beb7d000-7f41beb7e000 rw-p 00005000 08:07 2758978                    /usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0
+7f41beb7e000-7f41beb80000 r-xp 00000000 08:07 2758976                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f41beb80000-7f41bed80000 ---p 00002000 08:07 2758976                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f41bed80000-7f41bed81000 r--p 00002000 08:07 2758976                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f41bed81000-7f41bed82000 rw-p 00003000 08:07 2758976                    /usr/lib/x86_64-linux-gnu/libXau.so.6.0.0
+7f41bed82000-7f41beda8000 r-xp 00000000 08:07 2758984                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f41beda8000-7f41befa8000 ---p 00026000 08:07 2758984                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f41befa8000-7f41befa9000 r--p 00026000 08:07 2758984                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f41befa9000-7f41befaa000 rw-p 00027000 08:07 2758984                    /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0
+7f41befaa000-7f41bf0dd000 r-xp 00000000 08:07 2758974                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f41bf0dd000-7f41bf2dd000 ---p 00133000 08:07 2758974                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f41bf2dd000-7f41bf2de000 r--p 00133000 08:07 2758974                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f41bf2de000-7f41bf2e2000 rw-p 00134000 08:07 2758974                    /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0
+7f41bf2e2000-7f41bf32d000 r-xp 00000000 08:07 413805                     /usr/lib/x86_64-linux-gnu/libignition-rendering2.so.2.0.0
+7f41bf32d000-7f41bf52c000 ---p 0004b000 08:07 413805                     /usr/lib/x86_64-linux-gnu/libignition-rendering2.so.2.0.0
+7f41bf52c000-7f41bf52f000 r--p 0004a000 08:07 413805                     /usr/lib/x86_64-linux-gnu/libignition-rendering2.so.2.0.0
+7f41bf52f000-7f41bf530000 rw-p 0004d000 08:07 413805                     /usr/lib/x86_64-linux-gnu/libignition-rendering2.so.2.0.0
+7f41bf530000-7f41bf54d000 r-xp 00000000 08:07 413841                     /usr/lib/x86_64-linux-gnu/libignition-sensors2.so.2.1.0
+7f41bf54d000-7f41bf74d000 ---p 0001d000 08:07 413841                     /usr/lib/x86_64-linux-gnu/libignition-sensors2.so.2.1.0
+7f41bf74d000-7f41bf74e000 r--p 0001d000 08:07 413841                     /usr/lib/x86_64-linux-gnu/libignition-sensors2.so.2.1.0
+7f41bf74e000-7f41bf74f000 rw-p 0001e000 08:07 413841                     /usr/lib/x86_64-linux-gnu/libignition-sensors2.so.2.1.0
+7f41bf74f000-7f41bf756000 r-xp 00000000 08:07 413835                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-rendering.so.2.1.0
+7f41bf756000-7f41bf956000 ---p 00007000 08:07 413835                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-rendering.so.2.1.0
+7f41bf956000-7f41bf957000 r--p 00007000 08:07 413835                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-rendering.so.2.1.0
+7f41bf957000-7f41bf958000 rw-p 00008000 08:07 413835                     /usr/lib/x86_64-linux-gnu/libignition-sensors2-rendering.so.2.1.0
+7f41bf958000-7f41bf9c8000 r-xp 00000000 08:07 413754                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2.1.0
+7f41bf9c8000-7f41bfbc7000 ---p 00070000 08:07 413754                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2.1.0
+7f41bfbc7000-7f41bfbca000 r--p 0006f000 08:07 413754                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2.1.0
+7f41bfbca000-7f41bfbcb000 rw-p 00072000 08:07 413754                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2-rendering.so.2.1.0
+7f41bfbcb000-7f41bfbf3000 r-xp 00000000 08:07 413461                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.1.0
+7f41bfbf3000-7f41bfdf2000 ---p 00028000 08:07 413461                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.1.0
+7f41bfdf2000-7f41bfdf4000 r--p 00027000 08:07 413461                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.1.0
+7f41bfdf4000-7f41bfdf5000 rw-p 00029000 08:07 413461                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.1.0
+7f41bfdf5000-7f41bfdff000 r-xp 00000000 08:07 413601                     /usr/lib/x86_64-linux-gnu/libccd.so.2.0
+7f41bfdff000-7f41bfffe000 ---p 0000a000 08:07 413601                     /usr/lib/x86_64-linux-gnu/libccd.so.2.0
+7f41bfffe000-7f41bffff000 r--p 00009000 08:07 413601                     /usr/lib/x86_64-linux-gnu/libccd.so.2.0
+7f41bffff000-7f41c0000000 rw-p 0000a000 08:07 413601                     /usr/lib/x86_64-linux-gnu/libccd.so.2.0
+7f41c0000000-7f41c0021000 rw-p 00000000 00:00 0 
+7f41c0021000-7f41c4000000 ---p 00000000 00:00 0 
+7f41c402b000-7f41c412b000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41c412b000-7f41c4135000 r-xp 00000000 08:07 700802                     /usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0
+7f41c4135000-7f41c4334000 ---p 0000a000 08:07 700802                     /usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0
+7f41c4334000-7f41c4335000 r--p 00009000 08:07 700802                     /usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0
+7f41c4335000-7f41c4336000 rw-p 0000a000 08:07 700802                     /usr/lib/x86_64-linux-gnu/libminizip.so.1.0.0
+7f41c4336000-7f41c433b000 r-xp 00000000 08:07 412889                     /usr/lib/liboctomath.so.1.8.1
+7f41c433b000-7f41c453a000 ---p 00005000 08:07 412889                     /usr/lib/liboctomath.so.1.8.1
+7f41c453a000-7f41c453b000 r--p 00004000 08:07 412889                     /usr/lib/liboctomath.so.1.8.1
+7f41c453b000-7f41c453c000 rw-p 00005000 08:07 412889                     /usr/lib/liboctomath.so.1.8.1
+7f41c453c000-7f41c457e000 r-xp 00000000 08:07 412885                     /usr/lib/liboctomap.so.1.8.1
+7f41c457e000-7f41c477d000 ---p 00042000 08:07 412885                     /usr/lib/liboctomap.so.1.8.1
+7f41c477d000-7f41c477f000 r--p 00041000 08:07 412885                     /usr/lib/liboctomap.so.1.8.1
+7f41c477f000-7f41c4780000 rw-p 00043000 08:07 412885                     /usr/lib/liboctomap.so.1.8.1
+7f41c4780000-7f41c5026000 r-xp 00000000 08:07 413632                     /usr/lib/x86_64-linux-gnu/libfcl.so.0.5.0
+7f41c5026000-7f41c5226000 ---p 008a6000 08:07 413632                     /usr/lib/x86_64-linux-gnu/libfcl.so.0.5.0
+7f41c5226000-7f41c5263000 r--p 008a6000 08:07 413632                     /usr/lib/x86_64-linux-gnu/libfcl.so.0.5.0
+7f41c5263000-7f41c5264000 rw-p 008e3000 08:07 413632                     /usr/lib/x86_64-linux-gnu/libfcl.so.0.5.0
+7f41c5264000-7f41c5268000 rw-p 00000000 00:00 0 
+7f41c5268000-7f41c536b000 r-xp 00000000 08:07 699898                     /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.65.1
+7f41c536b000-7f41c556a000 ---p 00103000 08:07 699898                     /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.65.1
+7f41c556a000-7f41c556f000 r--p 00102000 08:07 699898                     /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.65.1
+7f41c556f000-7f41c5570000 rw-p 00107000 08:07 699898                     /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.65.1
+7f41c5570000-7f41c5589000 r-xp 00000000 08:07 699813                     /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1
+7f41c5589000-7f41c5788000 ---p 00019000 08:07 699813                     /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1
+7f41c5788000-7f41c5789000 r--p 00018000 08:07 699813                     /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1
+7f41c5789000-7f41c578a000 rw-p 00019000 08:07 699813                     /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.65.1
+7f41c578a000-7f41c578e000 r-xp 00000000 08:07 699919                     /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1
+7f41c578e000-7f41c598d000 ---p 00004000 08:07 699919                     /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1
+7f41c598d000-7f41c598e000 r--p 00003000 08:07 699919                     /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1
+7f41c598e000-7f41c598f000 rw-p 00004000 08:07 699919                     /usr/lib/x86_64-linux-gnu/libboost_system.so.1.65.1
+7f41c598f000-7f41c599a000 r-xp 00000000 08:07 413616                     /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.0
+7f41c599a000-7f41c5b9a000 ---p 0000b000 08:07 413616                     /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.0
+7f41c5b9a000-7f41c5b9b000 r--p 0000b000 08:07 413616                     /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.0
+7f41c5b9b000-7f41c5b9c000 rw-p 0000c000 08:07 413616                     /usr/lib/x86_64-linux-gnu/libdart-external-odelcpsolver.so.6.9.0
+7f41c5b9c000-7f41c5cb0000 r-xp 00000000 08:07 413863                     /usr/lib/x86_64-linux-gnu/libode.so.6.0.0
+7f41c5cb0000-7f41c5eb0000 ---p 00114000 08:07 413863                     /usr/lib/x86_64-linux-gnu/libode.so.6.0.0
+7f41c5eb0000-7f41c5eb2000 r--p 00114000 08:07 413863                     /usr/lib/x86_64-linux-gnu/libode.so.6.0.0
+7f41c5eb2000-7f41c5eb3000 rw-p 00116000 08:07 413863                     /usr/lib/x86_64-linux-gnu/libode.so.6.0.0
+7f41c5eb3000-7f41c5eba000 rw-p 00000000 00:00 0 
+7f41c5eba000-7f41c65aa000 r-xp 00000000 08:07 699748                     /usr/lib/x86_64-linux-gnu/libassimp.so.4.1.0
+7f41c65aa000-7f41c67aa000 ---p 006f0000 08:07 699748                     /usr/lib/x86_64-linux-gnu/libassimp.so.4.1.0
+7f41c67aa000-7f41c687c000 r--p 006f0000 08:07 699748                     /usr/lib/x86_64-linux-gnu/libassimp.so.4.1.0
+7f41c687c000-7f41c687e000 rw-p 007c2000 08:07 699748                     /usr/lib/x86_64-linux-gnu/libassimp.so.4.1.0
+7f41c687e000-7f41c6885000 rw-p 00000000 00:00 0 
+7f41c6885000-7f41c6e12000 r-xp 00000000 08:07 413625                     /usr/lib/x86_64-linux-gnu/libdart.so.6.9.0
+7f41c6e12000-7f41c7012000 ---p 0058d000 08:07 413625                     /usr/lib/x86_64-linux-gnu/libdart.so.6.9.0
+7f41c7012000-7f41c70a2000 r--p 0058d000 08:07 413625                     /usr/lib/x86_64-linux-gnu/libdart.so.6.9.0
+7f41c70a2000-7f41c70a8000 rw-p 0061d000 08:07 413625                     /usr/lib/x86_64-linux-gnu/libdart.so.6.9.0
+7f41c70a8000-7f41c70aa000 rw-p 00000000 00:00 0 
+7f41c70aa000-7f41c70bc000 r-xp 00000000 08:07 413613                     /usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.9.0
+7f41c70bc000-7f41c72bc000 ---p 00012000 08:07 413613                     /usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.9.0
+7f41c72bc000-7f41c72bd000 r--p 00012000 08:07 413613                     /usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.9.0
+7f41c72bd000-7f41c72be000 rw-p 00013000 08:07 413613                     /usr/lib/x86_64-linux-gnu/libdart-collision-ode.so.6.9.0
+7f41c72be000-7f41c749e000 r-xp 00000000 08:07 413787                     /usr/lib/x86_64-linux-gnu/libignition-physics1-dartsim-plugin.so.1.2.0
+7f41c749e000-7f41c769e000 ---p 001e0000 08:07 413787                     /usr/lib/x86_64-linux-gnu/libignition-physics1-dartsim-plugin.so.1.2.0
+7f41c769e000-7f41c7795000 r--p 001e0000 08:07 413787                     /usr/lib/x86_64-linux-gnu/libignition-physics1-dartsim-plugin.so.1.2.0
+7f41c7795000-7f41c7796000 rw-p 002d7000 08:07 413787                     /usr/lib/x86_64-linux-gnu/libignition-physics1-dartsim-plugin.so.1.2.0
+7f41c7796000-7f41c779b000 r-xp 00000000 08:07 699608                     /usr/lib/x86_64-linux-gnu/libIlmThread-2_2.so.12.0.0
+7f41c779b000-7f41c799b000 ---p 00005000 08:07 699608                     /usr/lib/x86_64-linux-gnu/libIlmThread-2_2.so.12.0.0
+7f41c799b000-7f41c799c000 r--p 00005000 08:07 699608                     /usr/lib/x86_64-linux-gnu/libIlmThread-2_2.so.12.0.0
+7f41c799c000-7f41c799d000 rw-p 00006000 08:07 699608                     /usr/lib/x86_64-linux-gnu/libIlmThread-2_2.so.12.0.0
+7f41c799d000-7f41c79a8000 r-xp 00000000 08:07 700746                     /usr/lib/x86_64-linux-gnu/libjbig.so.0
+7f41c79a8000-7f41c7ba7000 ---p 0000b000 08:07 700746                     /usr/lib/x86_64-linux-gnu/libjbig.so.0
+7f41c7ba7000-7f41c7ba8000 r--p 0000a000 08:07 700746                     /usr/lib/x86_64-linux-gnu/libjbig.so.0
+7f41c7ba8000-7f41c7bab000 rw-p 0000b000 08:07 700746                     /usr/lib/x86_64-linux-gnu/libjbig.so.0
+7f41c7bab000-7f41c7bcf000 r-xp 00000000 08:07 2241069                    /lib/x86_64-linux-gnu/liblzma.so.5.2.2
+7f41c7bcf000-7f41c7dcf000 ---p 00024000 08:07 2241069                    /lib/x86_64-linux-gnu/liblzma.so.5.2.2
+7f41c7dcf000-7f41c7dd0000 r--p 00024000 08:07 2241069                    /lib/x86_64-linux-gnu/liblzma.so.5.2.2
+7f41c7dd0000-7f41c7dd1000 rw-p 00025000 08:07 2241069                    /lib/x86_64-linux-gnu/liblzma.so.5.2.2
+7f41c7dd1000-7f41c7dff000 r-xp 00000000 08:07 3027712                    /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0
+7f41c7dff000-7f41c7ffe000 ---p 0002e000 08:07 3027712                    /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0
+7f41c7ffe000-7f41c7fff000 r--p 0002d000 08:07 3027712                    /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0
+7f41c7fff000-7f41c8000000 rw-p 0002e000 08:07 3027712                    /usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0
+7f41c8000000-7f41c8021000 rw-p 00000000 00:00 0 
+7f41c8021000-7f41cc000000 ---p 00000000 00:00 0 
+7f41cc000000-7f41cc021000 rw-p 00000000 00:00 0 
+7f41cc021000-7f41d0000000 ---p 00000000 00:00 0 
+7f41d0007000-7f41d002b000 r--s 00000000 08:07 2241128                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f41d002b000-7f41d0055000 r--s 00000000 08:07 413461                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-sensors-system.so.2.1.0
+7f41d0055000-7f41d0075000 rw-s 00000000 08:07 1967270                    /home/developer/.glvndxOaGu3 (deleted)
+7f41d0075000-7f41d017a000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41d017a000-7f41d01cc000 r-xp 00000000 08:07 700768                     /usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.8
+7f41d01cc000-7f41d03cc000 ---p 00052000 08:07 700768                     /usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.8
+7f41d03cc000-7f41d03ce000 r--p 00052000 08:07 700768                     /usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.8
+7f41d03ce000-7f41d03d1000 rw-p 00054000 08:07 700768                     /usr/lib/x86_64-linux-gnu/liblcms2.so.2.0.8
+7f41d03d1000-7f41d03d2000 rw-p 00000000 00:00 0 
+7f41d03d2000-7f41d0405000 r-xp 00000000 08:07 700752                     /usr/lib/x86_64-linux-gnu/libjpegxr.so.1.1
+7f41d0405000-7f41d0604000 ---p 00033000 08:07 700752                     /usr/lib/x86_64-linux-gnu/libjpegxr.so.1.1
+7f41d0604000-7f41d0605000 r--p 00032000 08:07 700752                     /usr/lib/x86_64-linux-gnu/libjpegxr.so.1.1
+7f41d0605000-7f41d0606000 rw-p 00033000 08:07 700752                     /usr/lib/x86_64-linux-gnu/libjpegxr.so.1.1
+7f41d0606000-7f41d0621000 r-xp 00000000 08:07 699594                     /usr/lib/x86_64-linux-gnu/libIex-2_2.so.12.0.0
+7f41d0621000-7f41d0820000 ---p 0001b000 08:07 699594                     /usr/lib/x86_64-linux-gnu/libIex-2_2.so.12.0.0
+7f41d0820000-7f41d0823000 r--p 0001a000 08:07 699594                     /usr/lib/x86_64-linux-gnu/libIex-2_2.so.12.0.0
+7f41d0823000-7f41d0824000 rw-p 0001d000 08:07 699594                     /usr/lib/x86_64-linux-gnu/libIex-2_2.so.12.0.0
+7f41d0824000-7f41d0866000 r-xp 00000000 08:07 699590                     /usr/lib/x86_64-linux-gnu/libHalf.so.12.0.0
+7f41d0866000-7f41d0a65000 ---p 00042000 08:07 699590                     /usr/lib/x86_64-linux-gnu/libHalf.so.12.0.0
+7f41d0a65000-7f41d0a66000 r--p 00041000 08:07 699590                     /usr/lib/x86_64-linux-gnu/libHalf.so.12.0.0
+7f41d0a66000-7f41d0a67000 rw-p 00042000 08:07 699590                     /usr/lib/x86_64-linux-gnu/libHalf.so.12.0.0
+7f41d0a67000-7f41d0c25000 r-xp 00000000 08:07 699600                     /usr/lib/x86_64-linux-gnu/libIlmImf-2_2.so.22.0.0
+7f41d0c25000-7f41d0e25000 ---p 001be000 08:07 699600                     /usr/lib/x86_64-linux-gnu/libIlmImf-2_2.so.22.0.0
+7f41d0e25000-7f41d0e28000 r--p 001be000 08:07 699600                     /usr/lib/x86_64-linux-gnu/libIlmImf-2_2.so.22.0.0
+7f41d0e28000-7f41d0f29000 rw-p 001c1000 08:07 699600                     /usr/lib/x86_64-linux-gnu/libIlmImf-2_2.so.22.0.0
+7f41d0f29000-7f41d0f2a000 rw-p 00000000 00:00 0 
+7f41d0f2a000-7f41d0f90000 r-xp 00000000 08:07 702000                     /usr/lib/x86_64-linux-gnu/libwebp.so.6.0.2
+7f41d0f90000-7f41d118f000 ---p 00066000 08:07 702000                     /usr/lib/x86_64-linux-gnu/libwebp.so.6.0.2
+7f41d118f000-7f41d1190000 r--p 00065000 08:07 702000                     /usr/lib/x86_64-linux-gnu/libwebp.so.6.0.2
+7f41d1190000-7f41d1191000 rw-p 00066000 08:07 702000                     /usr/lib/x86_64-linux-gnu/libwebp.so.6.0.2
+7f41d1191000-7f41d1193000 rw-p 00000000 00:00 0 
+7f41d1193000-7f41d119c000 r-xp 00000000 08:07 702004                     /usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.1
+7f41d119c000-7f41d139b000 ---p 00009000 08:07 702004                     /usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.1
+7f41d139b000-7f41d139c000 r--p 00008000 08:07 702004                     /usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.1
+7f41d139c000-7f41d139d000 rw-p 00009000 08:07 702004                     /usr/lib/x86_64-linux-gnu/libwebpmux.so.3.0.1
+7f41d139d000-7f41d1410000 r-xp 00000000 08:07 701231                     /usr/lib/x86_64-linux-gnu/libtiff.so.5.3.0
+7f41d1410000-7f41d160f000 ---p 00073000 08:07 701231                     /usr/lib/x86_64-linux-gnu/libtiff.so.5.3.0
+7f41d160f000-7f41d1613000 r--p 00072000 08:07 701231                     /usr/lib/x86_64-linux-gnu/libtiff.so.5.3.0
+7f41d1613000-7f41d1614000 rw-p 00076000 08:07 701231                     /usr/lib/x86_64-linux-gnu/libtiff.so.5.3.0
+7f41d1614000-7f41d169a000 r-xp 00000000 08:07 701115                     /usr/lib/x86_64-linux-gnu/libraw.so.16.0.0
+7f41d169a000-7f41d189a000 ---p 00086000 08:07 701115                     /usr/lib/x86_64-linux-gnu/libraw.so.16.0.0
+7f41d189a000-7f41d18a4000 r--p 00086000 08:07 701115                     /usr/lib/x86_64-linux-gnu/libraw.so.16.0.0
+7f41d18a4000-7f41d18e7000 rw-p 00090000 08:07 701115                     /usr/lib/x86_64-linux-gnu/libraw.so.16.0.0
+7f41d18e7000-7f41d1918000 r-xp 00000000 08:07 701090                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.34.0
+7f41d1918000-7f41d1b17000 ---p 00031000 08:07 701090                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.34.0
+7f41d1b17000-7f41d1b18000 r--p 00030000 08:07 701090                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.34.0
+7f41d1b18000-7f41d1b19000 rw-p 00031000 08:07 701090                     /usr/lib/x86_64-linux-gnu/libpng16.so.16.34.0
+7f41d1b19000-7f41d1b6d000 r-xp 00000000 08:07 701039                     /usr/lib/x86_64-linux-gnu/libopenjp2.so.2.3.0
+7f41d1b6d000-7f41d1d6d000 ---p 00054000 08:07 701039                     /usr/lib/x86_64-linux-gnu/libopenjp2.so.2.3.0
+7f41d1d6d000-7f41d1d6e000 r--p 00054000 08:07 701039                     /usr/lib/x86_64-linux-gnu/libopenjp2.so.2.3.0
+7f41d1d6e000-7f41d1d6f000 rw-p 00055000 08:07 701039                     /usr/lib/x86_64-linux-gnu/libopenjp2.so.2.3.0
+7f41d1d6f000-7f41d1dd6000 r-xp 00000000 08:07 700750                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+7f41d1dd6000-7f41d1fd5000 ---p 00067000 08:07 700750                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+7f41d1fd5000-7f41d1fd6000 r--p 00066000 08:07 700750                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+7f41d1fd6000-7f41d1fd7000 rw-p 00067000 08:07 700750                     /usr/lib/x86_64-linux-gnu/libjpeg.so.8.1.2
+7f41d1fd7000-7f41d1ff4000 r-xp 00000000 08:07 700756                     /usr/lib/x86_64-linux-gnu/libjxrglue.so.1.1
+7f41d1ff4000-7f41d21f3000 ---p 0001d000 08:07 700756                     /usr/lib/x86_64-linux-gnu/libjxrglue.so.1.1
+7f41d21f3000-7f41d21f5000 r--p 0001c000 08:07 700756                     /usr/lib/x86_64-linux-gnu/libjxrglue.so.1.1
+7f41d21f5000-7f41d21f6000 rw-p 0001e000 08:07 700756                     /usr/lib/x86_64-linux-gnu/libjxrglue.so.1.1
+7f41d21f6000-7f41d21f7000 rw-p 00000000 00:00 0 
+7f41d21f7000-7f41d229b000 r-xp 00000000 08:07 700021                     /usr/lib/x86_64-linux-gnu/libfreeimage-3.17.0.so
+7f41d229b000-7f41d249a000 ---p 000a4000 08:07 700021                     /usr/lib/x86_64-linux-gnu/libfreeimage-3.17.0.so
+7f41d249a000-7f41d249d000 r--p 000a3000 08:07 700021                     /usr/lib/x86_64-linux-gnu/libfreeimage-3.17.0.so
+7f41d249d000-7f41d24a7000 rw-p 000a6000 08:07 700021                     /usr/lib/x86_64-linux-gnu/libfreeimage-3.17.0.so
+7f41d24a7000-7f41d2503000 r-xp 00000000 08:07 700645                     /usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1
+7f41d2503000-7f41d2702000 ---p 0005c000 08:07 700645                     /usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1
+7f41d2702000-7f41d2703000 r--p 0005b000 08:07 700645                     /usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1
+7f41d2703000-7f41d2704000 rw-p 0005c000 08:07 700645                     /usr/lib/x86_64-linux-gnu/libgts-0.7.so.5.0.1
+7f41d2704000-7f41d2795000 r-xp 00000000 08:07 413688                     /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.1.0
+7f41d2795000-7f41d2995000 ---p 00091000 08:07 413688                     /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.1.0
+7f41d2995000-7f41d2996000 r--p 00091000 08:07 413688                     /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.1.0
+7f41d2996000-7f41d2997000 rw-p 00092000 08:07 413688                     /usr/lib/x86_64-linux-gnu/libignition-common3-graphics.so.3.1.0
+7f41d2997000-7f41d299e000 r-xp 00000000 08:07 413790                     /usr/lib/x86_64-linux-gnu/libignition-physics1.so.1.2.0
+7f41d299e000-7f41d2b9d000 ---p 00007000 08:07 413790                     /usr/lib/x86_64-linux-gnu/libignition-physics1.so.1.2.0
+7f41d2b9d000-7f41d2b9e000 r--p 00006000 08:07 413790                     /usr/lib/x86_64-linux-gnu/libignition-physics1.so.1.2.0
+7f41d2b9e000-7f41d2b9f000 rw-p 00007000 08:07 413790                     /usr/lib/x86_64-linux-gnu/libignition-physics1.so.1.2.0
+7f41d2b9f000-7f41d2db8000 r-xp 00000000 08:07 413452                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.1.0
+7f41d2db8000-7f41d2fb8000 ---p 00219000 08:07 413452                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.1.0
+7f41d2fb8000-7f41d2ffc000 r--p 00219000 08:07 413452                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.1.0
+7f41d2ffc000-7f41d2ffd000 rw-p 0025d000 08:07 413452                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-physics-system.so.2.1.0
+7f41d2ffd000-7f41d2ffe000 rw-p 00000000 00:00 0 
+7f41d2ffe000-7f41d2fff000 ---p 00000000 00:00 0 
+7f41d2fff000-7f41d37ff000 rw-p 00000000 00:00 0 
+7f41d37ff000-7f41d3800000 ---p 00000000 00:00 0 
+7f41d3800000-7f41d4000000 rw-p 00000000 00:00 0 
+7f41d4000000-7f41d40fe000 rw-p 00000000 00:00 0 
+7f41d40fe000-7f41d8000000 ---p 00000000 00:00 0 
+7f41d8000000-7f41d8021000 rw-p 00000000 00:00 0 
+7f41d8021000-7f41dc000000 ---p 00000000 00:00 0 
+7f41dc000000-7f41dc04e000 rw-p 00000000 00:00 0 
+7f41dc04e000-7f41e0000000 ---p 00000000 00:00 0 
+7f41e0005000-7f41e0062000 r-xp 00000000 08:07 413844                     /usr/lib/x86_64-linux-gnu/libignition-transport7-log.so.7.0.0
+7f41e0062000-7f41e0262000 ---p 0005d000 08:07 413844                     /usr/lib/x86_64-linux-gnu/libignition-transport7-log.so.7.0.0
+7f41e0262000-7f41e0263000 r--p 0005d000 08:07 413844                     /usr/lib/x86_64-linux-gnu/libignition-transport7-log.so.7.0.0
+7f41e0263000-7f41e0264000 rw-p 0005e000 08:07 413844                     /usr/lib/x86_64-linux-gnu/libignition-transport7-log.so.7.0.0
+7f41e0264000-7f41e02bc000 r-xp 00000000 08:07 413440                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.1.0
+7f41e02bc000-7f41e04bb000 ---p 00058000 08:07 413440                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.1.0
+7f41e04bb000-7f41e04bd000 r--p 00057000 08:07 413440                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.1.0
+7f41e04bd000-7f41e04be000 rw-p 00059000 08:07 413440                     /usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/libignition-gazebo2-log-system.so.2.1.0
+7f41e04be000-7f41e04bf000 ---p 00000000 00:00 0 
+7f41e04bf000-7f41e0cbf000 rw-p 00000000 00:00 0 
+7f41e0cbf000-7f41e0cc0000 ---p 00000000 00:00 0 
+7f41e0cc0000-7f41e14c0000 rw-p 00000000 00:00 0 
+7f41e14c0000-7f41e14c1000 ---p 00000000 00:00 0 
+7f41e14c1000-7f41e1cc1000 rw-p 00000000 00:00 0 
+7f41e1cc1000-7f41e1cc2000 ---p 00000000 00:00 0 
+7f41e1cc2000-7f41e24c2000 rw-p 00000000 00:00 0 
+7f41e24c2000-7f41e24c3000 ---p 00000000 00:00 0 
+7f41e24c3000-7f41e2cc3000 rw-p 00000000 00:00 0 
+7f41e2cc3000-7f41e2cc4000 ---p 00000000 00:00 0 
+7f41e2cc4000-7f41e34c4000 rw-p 00000000 00:00 0 
+7f41e34c4000-7f41e34c5000 ---p 00000000 00:00 0 
+7f41e34c5000-7f41e3cc5000 rw-p 00000000 00:00 0 
+7f41e3cc5000-7f41e3cc6000 ---p 00000000 00:00 0 
+7f41e3cc6000-7f41e44c6000 rw-p 00000000 00:00 0 
+7f41e44c6000-7f41e44c7000 ---p 00000000 00:00 0 
+7f41e44c7000-7f41e4cc7000 rw-p 00000000 00:00 0 
+7f41e4cc7000-7f41e4cd2000 r-xp 00000000 08:07 2241099                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f41e4cd2000-7f41e4ed1000 ---p 0000b000 08:07 2241099                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f41e4ed1000-7f41e4ed2000 r--p 0000a000 08:07 2241099                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f41e4ed2000-7f41e4ed3000 rw-p 0000b000 08:07 2241099                    /lib/x86_64-linux-gnu/libnss_files-2.27.so
+7f41e4ed3000-7f41e4ed9000 rw-p 00000000 00:00 0 
+7f41e4ed9000-7f41e4ef0000 r-xp 00000000 08:07 2241093                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f41e4ef0000-7f41e50ef000 ---p 00017000 08:07 2241093                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f41e50ef000-7f41e50f0000 r--p 00016000 08:07 2241093                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f41e50f0000-7f41e50f1000 rw-p 00017000 08:07 2241093                    /lib/x86_64-linux-gnu/libnsl-2.27.so
+7f41e50f1000-7f41e50f3000 rw-p 00000000 00:00 0 
+7f41e50f3000-7f41e50fe000 r-xp 00000000 08:07 2241103                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f41e50fe000-7f41e52fd000 ---p 0000b000 08:07 2241103                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f41e52fd000-7f41e52fe000 r--p 0000a000 08:07 2241103                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f41e52fe000-7f41e52ff000 rw-p 0000b000 08:07 2241103                    /lib/x86_64-linux-gnu/libnss_nis-2.27.so
+7f41e52ff000-7f41e5307000 r-xp 00000000 08:07 2241095                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f41e5307000-7f41e5507000 ---p 00008000 08:07 2241095                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f41e5507000-7f41e5508000 r--p 00008000 08:07 2241095                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f41e5508000-7f41e5509000 rw-p 00009000 08:07 2241095                    /lib/x86_64-linux-gnu/libnss_compat-2.27.so
+7f41e5509000-7f41e550a000 ---p 00000000 00:00 0 
+7f41e550a000-7f41e5d0a000 rw-p 00000000 00:00 0 
+7f41e5d0a000-7f41e5d0b000 ---p 00000000 00:00 0 
+7f41e5d0b000-7f41e650b000 rw-p 00000000 00:00 0 
+7f41e650b000-7f41e650c000 ---p 00000000 00:00 0 
+7f41e650c000-7f41e6d0c000 rw-p 00000000 00:00 0 
+7f41e6d0c000-7f41e6d0d000 ---p 00000000 00:00 0 
+7f41e6d0d000-7f41e750d000 rw-p 00000000 00:00 0 
+7f41e750d000-7f41e7611000 r-xp 00000000 08:07 3027816                    /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f41e7611000-7f41e7810000 ---p 00104000 08:07 3027816                    /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f41e7810000-7f41e7813000 r--p 00103000 08:07 3027816                    /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f41e7813000-7f41e7815000 rw-p 00106000 08:07 3027816                    /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6
+7f41e7815000-7f41e7816000 rw-p 00000000 00:00 0 
+7f41e7816000-7f41e785c000 r-xp 00000000 08:07 3027725                    /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7f41e785c000-7f41e7a5b000 ---p 00046000 08:07 3027725                    /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7f41e7a5b000-7f41e7a5e000 r--p 00045000 08:07 3027725                    /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7f41e7a5e000-7f41e7a5f000 rw-p 00048000 08:07 3027725                    /usr/lib/x86_64-linux-gnu/libhx509.so.5.0.0
+7f41e7a5f000-7f41e7a60000 rw-p 00000000 00:00 0 
+7f41e7a60000-7f41e7a6e000 r-xp 00000000 08:07 3027721                    /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7f41e7a6e000-7f41e7c6d000 ---p 0000e000 08:07 3027721                    /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7f41e7c6d000-7f41e7c6e000 r--p 0000d000 08:07 3027721                    /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7f41e7c6e000-7f41e7c6f000 rw-p 0000e000 08:07 3027721                    /usr/lib/x86_64-linux-gnu/libheimbase.so.1.0.0
+7f41e7c6f000-7f41e7c97000 r-xp 00000000 08:07 3027844                    /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7f41e7c97000-7f41e7e96000 ---p 00028000 08:07 3027844                    /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7f41e7e96000-7f41e7e97000 r--p 00027000 08:07 3027844                    /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7f41e7e97000-7f41e7e98000 rw-p 00028000 08:07 3027844                    /usr/lib/x86_64-linux-gnu/libwind.so.0.0.0
+7f41e7e98000-7f41e7ead000 r-xp 00000000 08:07 3027801                    /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7f41e7ead000-7f41e80ac000 ---p 00015000 08:07 3027801                    /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7f41e80ac000-7f41e80ad000 r--p 00014000 08:07 3027801                    /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7f41e80ad000-7f41e80ae000 rw-p 00015000 08:07 3027801                    /usr/lib/x86_64-linux-gnu/libroken.so.18.1.0
+7f41e80ae000-7f41e80e1000 r-xp 00000000 08:07 3027719                    /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7f41e80e1000-7f41e82e0000 ---p 00033000 08:07 3027719                    /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7f41e82e0000-7f41e82e2000 r--p 00032000 08:07 3027719                    /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7f41e82e2000-7f41e82e3000 rw-p 00034000 08:07 3027719                    /usr/lib/x86_64-linux-gnu/libhcrypto.so.4.1.0
+7f41e82e3000-7f41e82e4000 rw-p 00000000 00:00 0 
+7f41e82e4000-7f41e8382000 r-xp 00000000 08:07 3027637                    /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7f41e8382000-7f41e8582000 ---p 0009e000 08:07 3027637                    /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7f41e8582000-7f41e8583000 r--p 0009e000 08:07 3027637                    /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7f41e8583000-7f41e8586000 rw-p 0009f000 08:07 3027637                    /usr/lib/x86_64-linux-gnu/libasn1.so.8.0.0
+7f41e8586000-7f41e860d000 r-xp 00000000 08:07 3027736                    /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7f41e860d000-7f41e880c000 ---p 00087000 08:07 3027736                    /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7f41e880c000-7f41e8810000 r--p 00086000 08:07 3027736                    /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7f41e8810000-7f41e8812000 rw-p 0008a000 08:07 3027736                    /usr/lib/x86_64-linux-gnu/libkrb5.so.26.0.0
+7f41e8812000-7f41e8813000 rw-p 00000000 00:00 0 
+7f41e8813000-7f41e881b000 r-xp 00000000 08:07 3027723                    /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7f41e881b000-7f41e8a1a000 ---p 00008000 08:07 3027723                    /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7f41e8a1a000-7f41e8a1b000 r--p 00007000 08:07 3027723                    /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7f41e8a1b000-7f41e8a1c000 rw-p 00008000 08:07 3027723                    /usr/lib/x86_64-linux-gnu/libheimntlm.so.0.1.0
+7f41e8a1c000-7f41e8a1f000 r-xp 00000000 08:07 2374490                    /lib/x86_64-linux-gnu/libkeyutils.so.1.5
+7f41e8a1f000-7f41e8c1e000 ---p 00003000 08:07 2374490                    /lib/x86_64-linux-gnu/libkeyutils.so.1.5
+7f41e8c1e000-7f41e8c1f000 r--p 00002000 08:07 2374490                    /lib/x86_64-linux-gnu/libkeyutils.so.1.5
+7f41e8c1f000-7f41e8c20000 rw-p 00003000 08:07 2374490                    /lib/x86_64-linux-gnu/libkeyutils.so.1.5
+7f41e8c20000-7f41e8c31000 r-xp 00000000 08:07 2248114                    /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.5
+7f41e8c31000-7f41e8e31000 ---p 00011000 08:07 2248114                    /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.5
+7f41e8e31000-7f41e8e32000 r--p 00011000 08:07 2248114                    /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.5
+7f41e8e32000-7f41e8e33000 rw-p 00012000 08:07 2248114                    /usr/lib/x86_64-linux-gnu/libtasn1.so.6.5.5
+7f41e8e33000-7f41e8f4d000 r-xp 00000000 08:07 2248103                    /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0
+7f41e8f4d000-7f41e914d000 ---p 0011a000 08:07 2248103                    /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0
+7f41e914d000-7f41e9157000 r--p 0011a000 08:07 2248103                    /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0
+7f41e9157000-7f41e9161000 rw-p 00124000 08:07 2248103                    /usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.0
+7f41e9161000-7f41e9162000 rw-p 00000000 00:00 0 
+7f41e9162000-7f41e919f000 r-xp 00000000 08:07 3027715                    /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7f41e919f000-7f41e939f000 ---p 0003d000 08:07 3027715                    /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7f41e939f000-7f41e93a1000 r--p 0003d000 08:07 3027715                    /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7f41e93a1000-7f41e93a3000 rw-p 0003f000 08:07 3027715                    /usr/lib/x86_64-linux-gnu/libgssapi.so.3.0.0
+7f41e93a3000-7f41e93bc000 r-xp 00000000 08:07 3027813                    /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7f41e93bc000-7f41e95bc000 ---p 00019000 08:07 3027813                    /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7f41e95bc000-7f41e95bd000 r--p 00019000 08:07 3027813                    /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7f41e95bd000-7f41e95be000 rw-p 0001a000 08:07 3027813                    /usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25
+7f41e95be000-7f41e95d5000 r-xp 00000000 08:07 2241130                    /lib/x86_64-linux-gnu/libresolv-2.27.so
+7f41e95d5000-7f41e97d5000 ---p 00017000 08:07 2241130                    /lib/x86_64-linux-gnu/libresolv-2.27.so
+7f41e97d5000-7f41e97d6000 r--p 00017000 08:07 2241130                    /lib/x86_64-linux-gnu/libresolv-2.27.so
+7f41e97d6000-7f41e97d7000 rw-p 00018000 08:07 2241130                    /lib/x86_64-linux-gnu/libresolv-2.27.so
+7f41e97d7000-7f41e97d9000 rw-p 00000000 00:00 0 
+7f41e97d9000-7f41e97e3000 r-xp 00000000 08:07 3027740                    /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f41e97e3000-7f41e99e2000 ---p 0000a000 08:07 3027740                    /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f41e99e2000-7f41e99e3000 r--p 00009000 08:07 3027740                    /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f41e99e3000-7f41e99e4000 rw-p 0000a000 08:07 3027740                    /usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1
+7f41e99e4000-7f41e99e7000 r-xp 00000000 08:07 2241052                    /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f41e99e7000-7f41e9be6000 ---p 00003000 08:07 2241052                    /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f41e9be6000-7f41e9be7000 r--p 00002000 08:07 2241052                    /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f41e9be7000-7f41e9be8000 rw-p 00003000 08:07 2241052                    /lib/x86_64-linux-gnu/libcom_err.so.2.1
+7f41e9be8000-7f41e9c16000 r-xp 00000000 08:07 3027734                    /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f41e9c16000-7f41e9e16000 ---p 0002e000 08:07 3027734                    /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f41e9e16000-7f41e9e18000 r--p 0002e000 08:07 3027734                    /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f41e9e18000-7f41e9e19000 rw-p 00030000 08:07 3027734                    /usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1
+7f41e9e19000-7f41e9e1a000 rw-p 00000000 00:00 0 
+7f41e9e1a000-7f41e9ee0000 r-xp 00000000 08:07 3027738                    /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f41e9ee0000-7f41ea0e0000 ---p 000c6000 08:07 3027738                    /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f41ea0e0000-7f41ea0ee000 r--p 000c6000 08:07 3027738                    /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f41ea0ee000-7f41ea0f0000 rw-p 000d4000 08:07 3027738                    /usr/lib/x86_64-linux-gnu/libkrb5.so.3.3
+7f41ea0f0000-7f41ea124000 r-xp 00000000 08:07 2248101                    /usr/lib/x86_64-linux-gnu/libnettle.so.6.4
+7f41ea124000-7f41ea323000 ---p 00034000 08:07 2248101                    /usr/lib/x86_64-linux-gnu/libnettle.so.6.4
+7f41ea323000-7f41ea325000 r--p 00033000 08:07 2248101                    /usr/lib/x86_64-linux-gnu/libnettle.so.6.4
+7f41ea325000-7f41ea326000 rw-p 00035000 08:07 2248101                    /usr/lib/x86_64-linux-gnu/libnettle.so.6.4
+7f41ea326000-7f41ea359000 r-xp 00000000 08:07 2248091                    /usr/lib/x86_64-linux-gnu/libhogweed.so.4.4
+7f41ea359000-7f41ea558000 ---p 00033000 08:07 2248091                    /usr/lib/x86_64-linux-gnu/libhogweed.so.4.4
+7f41ea558000-7f41ea559000 r--p 00032000 08:07 2248091                    /usr/lib/x86_64-linux-gnu/libhogweed.so.4.4
+7f41ea559000-7f41ea55a000 rw-p 00033000 08:07 2248091                    /usr/lib/x86_64-linux-gnu/libhogweed.so.4.4
+7f41ea55a000-7f41ea6b1000 r-xp 00000000 08:07 2248089                    /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.10
+7f41ea6b1000-7f41ea8b1000 ---p 00157000 08:07 2248089                    /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.10
+7f41ea8b1000-7f41ea8bd000 r--p 00157000 08:07 2248089                    /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.10
+7f41ea8bd000-7f41ea8be000 rw-p 00163000 08:07 2248089                    /usr/lib/x86_64-linux-gnu/libgnutls.so.30.14.10
+7f41ea8be000-7f41ea8bf000 rw-p 00000000 00:00 0 
+7f41ea8bf000-7f41eaa39000 r-xp 00000000 08:07 2248118                    /usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0
+7f41eaa39000-7f41eac39000 ---p 0017a000 08:07 2248118                    /usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0
+7f41eac39000-7f41eac3c000 r--p 0017a000 08:07 2248118                    /usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0
+7f41eac3c000-7f41eac3d000 rw-p 0017d000 08:07 2248118                    /usr/lib/x86_64-linux-gnu/libunistring.so.2.1.0
+7f41eac3d000-7f41eacad000 r-xp 00000000 08:07 2241125                    /lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7f41eacad000-7f41eaead000 ---p 00070000 08:07 2241125                    /lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7f41eaead000-7f41eaeae000 r--p 00070000 08:07 2241125                    /lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7f41eaeae000-7f41eaeaf000 rw-p 00071000 08:07 2241125                    /lib/x86_64-linux-gnu/libpcre.so.3.13.3
+7f41eaeaf000-7f41ec857000 r-xp 00000000 08:07 2911078                    /usr/lib/x86_64-linux-gnu/libicudata.so.60.2
+7f41ec857000-7f41eca56000 ---p 019a8000 08:07 2911078                    /usr/lib/x86_64-linux-gnu/libicudata.so.60.2
+7f41eca56000-7f41eca57000 r--p 019a7000 08:07 2911078                    /usr/lib/x86_64-linux-gnu/libicudata.so.60.2
+7f41eca57000-7f41eca58000 rw-p 019a8000 08:07 2911078                    /usr/lib/x86_64-linux-gnu/libicudata.so.60.2
+7f41eca58000-7f41eca5f000 r-xp 00000000 08:07 2241132                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f41eca5f000-7f41ecc5e000 ---p 00007000 08:07 2241132                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f41ecc5e000-7f41ecc5f000 r--p 00006000 08:07 2241132                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f41ecc5f000-7f41ecc60000 rw-p 00007000 08:07 2241132                    /lib/x86_64-linux-gnu/librt-2.27.so
+7f41ecc60000-7f41eccdd000 r-xp 00000000 08:07 413859                     /usr/lib/x86_64-linux-gnu/libnorm.so.1.0.0
+7f41eccdd000-7f41ecedd000 ---p 0007d000 08:07 413859                     /usr/lib/x86_64-linux-gnu/libnorm.so.1.0.0
+7f41ecedd000-7f41ecedf000 r--p 0007d000 08:07 413859                     /usr/lib/x86_64-linux-gnu/libnorm.so.1.0.0
+7f41ecedf000-7f41ecee0000 rw-p 0007f000 08:07 413859                     /usr/lib/x86_64-linux-gnu/libnorm.so.1.0.0
+7f41ecee0000-7f41ecf90000 rw-p 00000000 00:00 0 
+7f41ecf90000-7f41ecfd7000 r-xp 00000000 08:07 413867                     /usr/lib/x86_64-linux-gnu/libpgm-5.2.so.0.0.122
+7f41ecfd7000-7f41ed1d6000 ---p 00047000 08:07 413867                     /usr/lib/x86_64-linux-gnu/libpgm-5.2.so.0.0.122
+7f41ed1d6000-7f41ed1d7000 r--p 00046000 08:07 413867                     /usr/lib/x86_64-linux-gnu/libpgm-5.2.so.0.0.122
+7f41ed1d7000-7f41ed1d8000 rw-p 00047000 08:07 413867                     /usr/lib/x86_64-linux-gnu/libpgm-5.2.so.0.0.122
+7f41ed1d8000-7f41ed1dc000 rw-p 00000000 00:00 0 
+7f41ed1dc000-7f41ed22c000 r-xp 00000000 08:07 413895                     /usr/lib/x86_64-linux-gnu/libsodium.so.23.1.0
+7f41ed22c000-7f41ed42b000 ---p 00050000 08:07 413895                     /usr/lib/x86_64-linux-gnu/libsodium.so.23.1.0
+7f41ed42b000-7f41ed42c000 r--p 0004f000 08:07 413895                     /usr/lib/x86_64-linux-gnu/libsodium.so.23.1.0
+7f41ed42c000-7f41ed42d000 rw-p 00050000 08:07 413895                     /usr/lib/x86_64-linux-gnu/libsodium.so.23.1.0
+7f41ed42d000-7f41ed43a000 r-xp 00000000 08:07 3027745                    /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.10.8
+7f41ed43a000-7f41ed639000 ---p 0000d000 08:07 3027745                    /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.10.8
+7f41ed639000-7f41ed63a000 r--p 0000c000 08:07 3027745                    /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.10.8
+7f41ed63a000-7f41ed63b000 rw-p 0000d000 08:07 3027745                    /usr/lib/x86_64-linux-gnu/liblber-2.4.so.2.10.8
+7f41ed63b000-7f41ed689000 r-xp 00000000 08:07 3027748                    /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.10.8
+7f41ed689000-7f41ed888000 ---p 0004e000 08:07 3027748                    /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.10.8
+7f41ed888000-7f41ed88a000 r--p 0004d000 08:07 3027748                    /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.10.8
+7f41ed88a000-7f41ed88b000 rw-p 0004f000 08:07 3027748                    /usr/lib/x86_64-linux-gnu/libldap_r-2.4.so.2.10.8
+7f41ed88b000-7f41ed88d000 rw-p 00000000 00:00 0 
+7f41ed88d000-7f41ed8d5000 r-xp 00000000 08:07 3027717                    /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f41ed8d5000-7f41edad4000 ---p 00048000 08:07 3027717                    /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f41edad4000-7f41edad6000 r--p 00047000 08:07 3027717                    /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f41edad6000-7f41edad8000 rw-p 00049000 08:07 3027717                    /usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2
+7f41edad8000-7f41edd73000 r-xp 00000000 08:07 3027670                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7f41edd73000-7f41edf72000 ---p 0029b000 08:07 3027670                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7f41edf72000-7f41edf9e000 r--p 0029a000 08:07 3027670                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7f41edf9e000-7f41edfa0000 rw-p 002c6000 08:07 3027670                    /usr/lib/x86_64-linux-gnu/libcrypto.so.1.1
+7f41edfa0000-7f41edfa3000 rw-p 00000000 00:00 0 
+7f41edfa3000-7f41ee023000 r-xp 00000000 08:07 3027818                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7f41ee023000-7f41ee223000 ---p 00080000 08:07 3027818                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7f41ee223000-7f41ee22c000 r--p 00080000 08:07 3027818                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7f41ee22c000-7f41ee230000 rw-p 00089000 08:07 3027818                    /usr/lib/x86_64-linux-gnu/libssl.so.1.1
+7f41ee230000-7f41ee23d000 r-xp 00000000 08:07 3027783                    /usr/lib/x86_64-linux-gnu/libpsl.so.5.2.0
+7f41ee23d000-7f41ee43c000 ---p 0000d000 08:07 3027783                    /usr/lib/x86_64-linux-gnu/libpsl.so.5.2.0
+7f41ee43c000-7f41ee43d000 r--p 0000c000 08:07 3027783                    /usr/lib/x86_64-linux-gnu/libpsl.so.5.2.0
+7f41ee43d000-7f41ee43e000 rw-p 0000d000 08:07 3027783                    /usr/lib/x86_64-linux-gnu/libpsl.so.5.2.0
+7f41ee43e000-7f41ee459000 r-xp 00000000 08:07 3027805                    /usr/lib/x86_64-linux-gnu/librtmp.so.1
+7f41ee459000-7f41ee658000 ---p 0001b000 08:07 3027805                    /usr/lib/x86_64-linux-gnu/librtmp.so.1
+7f41ee658000-7f41ee659000 r--p 0001a000 08:07 3027805                    /usr/lib/x86_64-linux-gnu/librtmp.so.1
+7f41ee659000-7f41ee65a000 rw-p 0001b000 08:07 3027805                    /usr/lib/x86_64-linux-gnu/librtmp.so.1
+7f41ee65a000-7f41ee676000 r-xp 00000000 08:07 2248093                    /usr/lib/x86_64-linux-gnu/libidn2.so.0.3.3
+7f41ee676000-7f41ee875000 ---p 0001c000 08:07 2248093                    /usr/lib/x86_64-linux-gnu/libidn2.so.0.3.3
+7f41ee875000-7f41ee876000 r--p 0001b000 08:07 2248093                    /usr/lib/x86_64-linux-gnu/libidn2.so.0.3.3
+7f41ee876000-7f41ee877000 rw-p 0001c000 08:07 2248093                    /usr/lib/x86_64-linux-gnu/libidn2.so.0.3.3
+7f41ee877000-7f41ee89a000 r-xp 00000000 08:07 3027771                    /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.15.2
+7f41ee89a000-7f41eea99000 ---p 00023000 08:07 3027771                    /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.15.2
+7f41eea99000-7f41eea9a000 r--p 00022000 08:07 3027771                    /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.15.2
+7f41eea9a000-7f41eea9c000 rw-p 00023000 08:07 3027771                    /usr/lib/x86_64-linux-gnu/libnghttp2.so.14.15.2
+7f41eea9c000-7f41eebb0000 r-xp 00000000 08:07 700086                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.5600.4
+7f41eebb0000-7f41eedaf000 ---p 00114000 08:07 700086                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.5600.4
+7f41eedaf000-7f41eedb0000 r--p 00113000 08:07 700086                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.5600.4
+7f41eedb0000-7f41eedb1000 rw-p 00114000 08:07 700086                     /usr/lib/x86_64-linux-gnu/libglib-2.0.so.0.5600.4
+7f41eedb1000-7f41eedb2000 rw-p 00000000 00:00 0 
+7f41eedb2000-7f41eedc2000 r-xp 00000000 08:07 700000                     /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.1.0
+7f41eedc2000-7f41eefc1000 ---p 00010000 08:07 700000                     /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.1.0
+7f41eefc1000-7f41eefc2000 r--p 0000f000 08:07 700000                     /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.1.0
+7f41eefc2000-7f41eefc3000 rw-p 00010000 08:07 700000                     /usr/lib/x86_64-linux-gnu/libdouble-conversion.so.1.0
+7f41eefc3000-7f41ef166000 r-xp 00000000 08:07 2911088                    /usr/lib/x86_64-linux-gnu/libicuuc.so.60.2
+7f41ef166000-7f41ef365000 ---p 001a3000 08:07 2911088                    /usr/lib/x86_64-linux-gnu/libicuuc.so.60.2
+7f41ef365000-7f41ef378000 r--p 001a2000 08:07 2911088                    /usr/lib/x86_64-linux-gnu/libicuuc.so.60.2
+7f41ef378000-7f41ef379000 rw-p 001b5000 08:07 2911088                    /usr/lib/x86_64-linux-gnu/libicuuc.so.60.2
+7f41ef379000-7f41ef37a000 rw-p 00000000 00:00 0 
+7f41ef37a000-7f41ef60c000 r-xp 00000000 08:07 2911080                    /usr/lib/x86_64-linux-gnu/libicui18n.so.60.2
+7f41ef60c000-7f41ef80b000 ---p 00292000 08:07 2911080                    /usr/lib/x86_64-linux-gnu/libicui18n.so.60.2
+7f41ef80b000-7f41ef81a000 r--p 00291000 08:07 2911080                    /usr/lib/x86_64-linux-gnu/libicui18n.so.60.2
+7f41ef81a000-7f41ef81b000 rw-p 002a0000 08:07 2911080                    /usr/lib/x86_64-linux-gnu/libicui18n.so.60.2
+7f41ef81b000-7f41ef8ad000 r-xp 00000000 08:07 413913                     /usr/lib/x86_64-linux-gnu/libzmq.so.5.1.5
+7f41ef8ad000-7f41efaad000 ---p 00092000 08:07 413913                     /usr/lib/x86_64-linux-gnu/libzmq.so.5.1.5
+7f41efaad000-7f41efab3000 r--p 00092000 08:07 413913                     /usr/lib/x86_64-linux-gnu/libzmq.so.5.1.5
+7f41efab3000-7f41efab4000 rw-p 00098000 08:07 413913                     /usr/lib/x86_64-linux-gnu/libzmq.so.5.1.5
+7f41efab4000-7f41efad0000 r-xp 00000000 08:07 2241266                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7f41efad0000-7f41efccf000 ---p 0001c000 08:07 2241266                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7f41efccf000-7f41efcd0000 r--p 0001b000 08:07 2241266                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7f41efcd0000-7f41efcd1000 rw-p 0001c000 08:07 2241266                    /lib/x86_64-linux-gnu/libz.so.1.2.11
+7f41efcd1000-7f41efce4000 r-xp 00000000 08:07 413909                     /usr/lib/x86_64-linux-gnu/libzip.so.4.0.0
+7f41efce4000-7f41efee3000 ---p 00013000 08:07 413909                     /usr/lib/x86_64-linux-gnu/libzip.so.4.0.0
+7f41efee3000-7f41efee4000 r--p 00012000 08:07 413909                     /usr/lib/x86_64-linux-gnu/libzip.so.4.0.0
+7f41efee4000-7f41efee5000 rw-p 00013000 08:07 413909                     /usr/lib/x86_64-linux-gnu/libzip.so.4.0.0
+7f41efee5000-7f41eff16000 r-xp 00000000 08:07 3027732                    /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
+7f41eff16000-7f41f0115000 ---p 00031000 08:07 3027732                    /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
+7f41f0115000-7f41f0116000 r--p 00030000 08:07 3027732                    /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
+7f41f0116000-7f41f0117000 rw-p 00031000 08:07 3027732                    /usr/lib/x86_64-linux-gnu/libjsoncpp.so.1.7.4
+7f41f0117000-7f41f0192000 r-xp 00000000 08:07 3027675                    /usr/lib/x86_64-linux-gnu/libcurl.so.4.5.0
+7f41f0192000-7f41f0392000 ---p 0007b000 08:07 3027675                    /usr/lib/x86_64-linux-gnu/libcurl.so.4.5.0
+7f41f0392000-7f41f0395000 r--p 0007b000 08:07 3027675                    /usr/lib/x86_64-linux-gnu/libcurl.so.4.5.0
+7f41f0395000-7f41f0396000 rw-p 0007e000 08:07 3027675                    /usr/lib/x86_64-linux-gnu/libcurl.so.4.5.0
+7f41f0396000-7f41f03aa000 r-xp 00000000 08:07 701238                     /usr/lib/x86_64-linux-gnu/libtinyxml.so.2.6.2
+7f41f03aa000-7f41f05a9000 ---p 00014000 08:07 701238                     /usr/lib/x86_64-linux-gnu/libtinyxml.so.2.6.2
+7f41f05a9000-7f41f05aa000 r--p 00013000 08:07 701238                     /usr/lib/x86_64-linux-gnu/libtinyxml.so.2.6.2
+7f41f05aa000-7f41f05ab000 rw-p 00014000 08:07 701238                     /usr/lib/x86_64-linux-gnu/libtinyxml.so.2.6.2
+7f41f05ab000-7f41f05dc000 r-xp 00000000 08:07 413781                     /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.2.0
+7f41f05dc000-7f41f07dc000 ---p 00031000 08:07 413781                     /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.2.0
+7f41f07dc000-7f41f07dd000 r--p 00031000 08:07 413781                     /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.2.0
+7f41f07dd000-7f41f07de000 rw-p 00032000 08:07 413781                     /usr/lib/x86_64-linux-gnu/libignition-math6.so.6.2.0
+7f41f07de000-7f41f07df000 rw-p 00000000 00:00 0 
+7f41f07df000-7f41f0d1a000 r-xp 00000000 08:07 699631                     /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+7f41f0d1a000-7f41f0f19000 ---p 0053b000 08:07 699631                     /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+7f41f0f19000-7f41f0f25000 r--p 0053a000 08:07 699631                     /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+7f41f0f25000-7f41f0f27000 rw-p 00546000 08:07 699631                     /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
+7f41f0f27000-7f41f0f2a000 rw-p 00000000 00:00 0 
+7f41f0f2a000-7f41f11bc000 r-xp 00000000 08:07 413784                     /usr/lib/x86_64-linux-gnu/libignition-msgs4.so.4.1.0
+7f41f11bc000-7f41f13bb000 ---p 00292000 08:07 413784                     /usr/lib/x86_64-linux-gnu/libignition-msgs4.so.4.1.0
+7f41f13bb000-7f41f13c8000 r--p 00291000 08:07 413784                     /usr/lib/x86_64-linux-gnu/libignition-msgs4.so.4.1.0
+7f41f13c8000-7f41f13c9000 rw-p 0029e000 08:07 413784                     /usr/lib/x86_64-linux-gnu/libignition-msgs4.so.4.1.0
+7f41f13c9000-7f41f13cb000 rw-p 00000000 00:00 0 
+7f41f13cb000-7f41f1449000 r-xp 00000000 08:07 413847                     /usr/lib/x86_64-linux-gnu/libignition-transport7.so.7.0.0
+7f41f1449000-7f41f1648000 ---p 0007e000 08:07 413847                     /usr/lib/x86_64-linux-gnu/libignition-transport7.so.7.0.0
+7f41f1648000-7f41f164a000 r--p 0007d000 08:07 413847                     /usr/lib/x86_64-linux-gnu/libignition-transport7.so.7.0.0
+7f41f164a000-7f41f164b000 rw-p 0007f000 08:07 413847                     /usr/lib/x86_64-linux-gnu/libignition-transport7.so.7.0.0
+7f41f164b000-7f41f164f000 r-xp 00000000 08:07 413685                     /usr/lib/x86_64-linux-gnu/libignition-common3-events.so.3.1.0
+7f41f164f000-7f41f184e000 ---p 00004000 08:07 413685                     /usr/lib/x86_64-linux-gnu/libignition-common3-events.so.3.1.0
+7f41f184e000-7f41f184f000 r--p 00003000 08:07 413685                     /usr/lib/x86_64-linux-gnu/libignition-common3-events.so.3.1.0
+7f41f184f000-7f41f1850000 rw-p 00004000 08:07 413685                     /usr/lib/x86_64-linux-gnu/libignition-common3-events.so.3.1.0
+7f41f1850000-7f41f1aa0000 r-xp 00000000 08:07 413879                     /usr/lib/x86_64-linux-gnu/libprotobuf.so.10.0.0
+7f41f1aa0000-7f41f1ca0000 ---p 00250000 08:07 413879                     /usr/lib/x86_64-linux-gnu/libprotobuf.so.10.0.0
+7f41f1ca0000-7f41f1ca8000 r--p 00250000 08:07 413879                     /usr/lib/x86_64-linux-gnu/libprotobuf.so.10.0.0
+7f41f1ca8000-7f41f1ca9000 rw-p 00258000 08:07 413879                     /usr/lib/x86_64-linux-gnu/libprotobuf.so.10.0.0
+7f41f1ca9000-7f41f1d15000 r-xp 00000000 08:07 413697                     /usr/lib/x86_64-linux-gnu/libignition-fuel_tools3.so.3.2.0
+7f41f1d15000-7f41f1f15000 ---p 0006c000 08:07 413697                     /usr/lib/x86_64-linux-gnu/libignition-fuel_tools3.so.3.2.0
+7f41f1f15000-7f41f1f16000 r--p 0006c000 08:07 413697                     /usr/lib/x86_64-linux-gnu/libignition-fuel_tools3.so.3.2.0
+7f41f1f16000-7f41f1f17000 rw-p 0006d000 08:07 413697                     /usr/lib/x86_64-linux-gnu/libignition-fuel_tools3.so.3.2.0
+7f41f1f17000-7f41f207c000 r-xp 00000000 08:07 413892                     /usr/lib/x86_64-linux-gnu/libsdformat8.so.8.2.0
+7f41f207c000-7f41f227b000 ---p 00165000 08:07 413892                     /usr/lib/x86_64-linux-gnu/libsdformat8.so.8.2.0
+7f41f227b000-7f41f227d000 r--p 00164000 08:07 413892                     /usr/lib/x86_64-linux-gnu/libsdformat8.so.8.2.0
+7f41f227d000-7f41f227f000 rw-p 00166000 08:07 413892                     /usr/lib/x86_64-linux-gnu/libsdformat8.so.8.2.0
+7f41f227f000-7f41f2424000 r-xp 00000000 08:07 413772                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2.1.0
+7f41f2424000-7f41f2623000 ---p 001a5000 08:07 413772                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2.1.0
+7f41f2623000-7f41f262c000 r--p 001a4000 08:07 413772                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2.1.0
+7f41f262c000-7f41f262e000 rw-p 001ad000 08:07 413772                     /usr/lib/x86_64-linux-gnu/libignition-gazebo2.so.2.1.0
+7f41f262e000-7f41f262f000 rw-p 00000000 00:00 0 
+7f41f262f000-7f41f263a000 r-xp 00000000 08:07 413483                     /usr/lib/x86_64-linux-gnu/ign-launch-1/plugins/libignition-launch-gazebo.so
+7f41f263a000-7f41f283a000 ---p 0000b000 08:07 413483                     /usr/lib/x86_64-linux-gnu/ign-launch-1/plugins/libignition-launch-gazebo.so
+7f41f283a000-7f41f283b000 r--p 0000b000 08:07 413483                     /usr/lib/x86_64-linux-gnu/ign-launch-1/plugins/libignition-launch-gazebo.so
+7f41f283b000-7f41f283c000 rw-p 0000c000 08:07 413483                     /usr/lib/x86_64-linux-gnu/ign-launch-1/plugins/libignition-launch-gazebo.so
+7f41f283c000-7f41f2842000 r-xp 00000000 08:07 2241242                    /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f41f2842000-7f41f2a41000 ---p 00006000 08:07 2241242                    /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f41f2a41000-7f41f2a42000 r--p 00005000 08:07 2241242                    /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f41f2a42000-7f41f2a43000 rw-p 00006000 08:07 2241242                    /lib/x86_64-linux-gnu/libuuid.so.1.3.0
+7f41f2a43000-7f41f2a5a000 r-xp 00000000 08:07 2374484                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f41f2a5a000-7f41f2c59000 ---p 00017000 08:07 2374484                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f41f2c59000-7f41f2c5a000 r--p 00016000 08:07 2374484                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f41f2c5a000-7f41f2c5b000 rw-p 00017000 08:07 2374484                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f41f2c5b000-7f41f2dd4000 r-xp 00000000 08:07 3027820                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7f41f2dd4000-7f41f2fd4000 ---p 00179000 08:07 3027820                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7f41f2fd4000-7f41f2fde000 r--p 00179000 08:07 3027820                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7f41f2fde000-7f41f2fe0000 rw-p 00183000 08:07 3027820                    /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25
+7f41f2fe0000-7f41f2fe4000 rw-p 00000000 00:00 0 
+7f41f2fe4000-7f41f2fed000 r-xp 00000000 08:07 413796                     /usr/lib/x86_64-linux-gnu/libignition-plugin1.so.1.0.0
+7f41f2fed000-7f41f31ed000 ---p 00009000 08:07 413796                     /usr/lib/x86_64-linux-gnu/libignition-plugin1.so.1.0.0
+7f41f31ed000-7f41f31ee000 r--p 00009000 08:07 413796                     /usr/lib/x86_64-linux-gnu/libignition-plugin1.so.1.0.0
+7f41f31ee000-7f41f31ef000 rw-p 0000a000 08:07 413796                     /usr/lib/x86_64-linux-gnu/libignition-plugin1.so.1.0.0
+7f41f31ef000-7f41f3201000 r-xp 00000000 08:07 413793                     /usr/lib/x86_64-linux-gnu/libignition-plugin1-loader.so.1.0.0
+7f41f3201000-7f41f3400000 ---p 00012000 08:07 413793                     /usr/lib/x86_64-linux-gnu/libignition-plugin1-loader.so.1.0.0
+7f41f3400000-7f41f3401000 r--p 00011000 08:07 413793                     /usr/lib/x86_64-linux-gnu/libignition-plugin1-loader.so.1.0.0
+7f41f3401000-7f41f3402000 rw-p 00012000 08:07 413793                     /usr/lib/x86_64-linux-gnu/libignition-plugin1-loader.so.1.0.0
+7f41f3402000-7f41f3442000 r-xp 00000000 08:07 413694                     /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.1.0
+7f41f3442000-7f41f3642000 ---p 00040000 08:07 413694                     /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.1.0
+7f41f3642000-7f41f3643000 r--p 00040000 08:07 413694                     /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.1.0
+7f41f3643000-7f41f3644000 rw-p 00041000 08:07 413694                     /usr/lib/x86_64-linux-gnu/libignition-common3.so.3.1.0
+7f41f3644000-7f41f3656000 r-xp 00000000 08:07 3027823                    /usr/lib/x86_64-linux-gnu/libtinyxml2.so.6.0.0
+7f41f3656000-7f41f3856000 ---p 00012000 08:07 3027823                    /usr/lib/x86_64-linux-gnu/libtinyxml2.so.6.0.0
+7f41f3856000-7f41f3857000 r--p 00012000 08:07 3027823                    /usr/lib/x86_64-linux-gnu/libtinyxml2.so.6.0.0
+7f41f3857000-7f41f3858000 rw-p 00013000 08:07 3027823                    /usr/lib/x86_64-linux-gnu/libtinyxml2.so.6.0.0
+7f41f3858000-7f41f3866000 r-xp 00000000 08:07 413778                     /usr/lib/x86_64-linux-gnu/libignition-launch1.so.1.1.0
+7f41f3866000-7f41f3a65000 ---p 0000e000 08:07 413778                     /usr/lib/x86_64-linux-gnu/libignition-launch1.so.1.1.0
+7f41f3a65000-7f41f3a66000 r--p 0000d000 08:07 413778                     /usr/lib/x86_64-linux-gnu/libignition-launch1.so.1.1.0
+7f41f3a66000-7f41f3a67000 rw-p 0000e000 08:07 413778                     /usr/lib/x86_64-linux-gnu/libignition-launch1.so.1.1.0
+7f41f3a67000-7f41f3a6a000 r-xp 00000000 08:07 3027880                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/cgi/escape.so
+7f41f3a6a000-7f41f3c69000 ---p 00003000 08:07 3027880                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/cgi/escape.so
+7f41f3c69000-7f41f3c6a000 r--p 00002000 08:07 3027880                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/cgi/escape.so
+7f41f3c6a000-7f41f3c6b000 rw-p 00003000 08:07 3027880                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/cgi/escape.so
+7f41f3c6b000-7f41f3c72000 r-xp 00000000 08:07 2248081                    /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f41f3c72000-7f41f3e71000 ---p 00007000 08:07 2248081                    /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f41f3e71000-7f41f3e72000 r--p 00006000 08:07 2248081                    /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f41f3e72000-7f41f3e73000 rw-p 00007000 08:07 2248081                    /usr/lib/x86_64-linux-gnu/libffi.so.6.0.4
+7f41f3e73000-7f41f3e7b000 r-xp 00000000 08:07 3027956                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/fiddle.so
+7f41f3e7b000-7f41f407b000 ---p 00008000 08:07 3027956                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/fiddle.so
+7f41f407b000-7f41f407c000 r--p 00008000 08:07 3027956                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/fiddle.so
+7f41f407c000-7f41f407d000 rw-p 00009000 08:07 3027956                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/fiddle.so
+7f41f407d000-7f41f4082000 r-xp 00000000 08:07 3027970                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/strscan.so
+7f41f4082000-7f41f4281000 ---p 00005000 08:07 3027970                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/strscan.so
+7f41f4281000-7f41f4282000 r--p 00004000 08:07 3027970                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/strscan.so
+7f41f4282000-7f41f4283000 rw-p 00005000 08:07 3027970                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/strscan.so
+7f41f4283000-7f41f42a0000 r-xp 00000000 08:07 3027846                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.5
+7f41f42a0000-7f41f449f000 ---p 0001d000 08:07 3027846                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.5
+7f41f449f000-7f41f44a0000 r--p 0001c000 08:07 3027846                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.5
+7f41f44a0000-7f41f44a1000 rw-p 0001d000 08:07 3027846                    /usr/lib/x86_64-linux-gnu/libyaml-0.so.2.0.5
+7f41f44a1000-7f41f44a7000 r-xp 00000000 08:07 3027962                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/psych.so
+7f41f44a7000-7f41f46a7000 ---p 00006000 08:07 3027962                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/psych.so
+7f41f46a7000-7f41f46a8000 r--p 00006000 08:07 3027962                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/psych.so
+7f41f46a8000-7f41f46a9000 rw-p 00007000 08:07 3027962                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/psych.so
+7f41f46a9000-7f41f46b0000 r-xp 00000000 08:07 3027969                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so
+7f41f46b0000-7f41f48b0000 ---p 00007000 08:07 3027969                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so
+7f41f48b0000-7f41f48b1000 r--p 00007000 08:07 3027969                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so
+7f41f48b1000-7f41f48b2000 rw-p 00008000 08:07 3027969                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/stringio.so
+7f41f48b2000-7f41f48b4000 r-xp 00000000 08:07 3027939                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so
+7f41f48b4000-7f41f4ab4000 ---p 00002000 08:07 3027939                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so
+7f41f4ab4000-7f41f4ab5000 r--p 00002000 08:07 3027939                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so
+7f41f4ab5000-7f41f4ab6000 rw-p 00003000 08:07 3027939                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/trans/transdb.so
+7f41f4ab6000-7f41f4ab8000 r-xp 00000000 08:07 3027896                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so
+7f41f4ab8000-7f41f4cb7000 ---p 00002000 08:07 3027896                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so
+7f41f4cb7000-7f41f4cb8000 r--p 00001000 08:07 3027896                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so
+7f41f4cb8000-7f41f4cb9000 rw-p 00002000 08:07 3027896                    /usr/lib/x86_64-linux-gnu/ruby/2.5.0/enc/encdb.so
+7f41f4cb9000-7f41f4e56000 r-xp 00000000 08:07 2241070                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f41f4e56000-7f41f5055000 ---p 0019d000 08:07 2241070                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f41f5055000-7f41f5056000 r--p 0019c000 08:07 2241070                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f41f5056000-7f41f5057000 rw-p 0019d000 08:07 2241070                    /lib/x86_64-linux-gnu/libm-2.27.so
+7f41f5057000-7f41f5060000 r-xp 00000000 08:07 2241053                    /lib/x86_64-linux-gnu/libcrypt-2.27.so
+7f41f5060000-7f41f525f000 ---p 00009000 08:07 2241053                    /lib/x86_64-linux-gnu/libcrypt-2.27.so
+7f41f525f000-7f41f5260000 r--p 00008000 08:07 2241053                    /lib/x86_64-linux-gnu/libcrypt-2.27.so
+7f41f5260000-7f41f5261000 rw-p 00009000 08:07 2241053                    /lib/x86_64-linux-gnu/libcrypt-2.27.so
+7f41f5261000-7f41f528f000 rw-p 00000000 00:00 0 
+7f41f528f000-7f41f5292000 r-xp 00000000 08:07 2241055                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f41f5292000-7f41f5491000 ---p 00003000 08:07 2241055                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f41f5491000-7f41f5492000 r--p 00002000 08:07 2241055                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f41f5492000-7f41f5493000 rw-p 00003000 08:07 2241055                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f41f5493000-7f41f5512000 r-xp 00000000 08:07 2248087                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.3.2
+7f41f5512000-7f41f5712000 ---p 0007f000 08:07 2248087                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.3.2
+7f41f5712000-7f41f5713000 r--p 0007f000 08:07 2248087                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.3.2
+7f41f5713000-7f41f5714000 rw-p 00080000 08:07 2248087                    /usr/lib/x86_64-linux-gnu/libgmp.so.10.3.2
+7f41f5714000-7f41f572e000 r-xp 00000000 08:07 2241128                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f41f572e000-7f41f592d000 ---p 0001a000 08:07 2241128                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f41f592d000-7f41f592e000 r--p 00019000 08:07 2241128                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f41f592e000-7f41f592f000 rw-p 0001a000 08:07 2241128                    /lib/x86_64-linux-gnu/libpthread-2.27.so
+7f41f592f000-7f41f5933000 rw-p 00000000 00:00 0 
+7f41f5933000-7f41f5b1a000 r-xp 00000000 08:07 2241045                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f41f5b1a000-7f41f5d1a000 ---p 001e7000 08:07 2241045                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f41f5d1a000-7f41f5d1e000 r--p 001e7000 08:07 2241045                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f41f5d1e000-7f41f5d20000 rw-p 001eb000 08:07 2241045                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f41f5d20000-7f41f5d24000 rw-p 00000000 00:00 0 
+7f41f5d24000-7f41f5fbf000 r-xp 00000000 08:07 3027808                    /usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5.1
+7f41f5fbf000-7f41f61be000 ---p 0029b000 08:07 3027808                    /usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5.1
+7f41f61be000-7f41f61c4000 r--p 0029a000 08:07 3027808                    /usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5.1
+7f41f61c4000-7f41f61c5000 rw-p 002a0000 08:07 3027808                    /usr/lib/x86_64-linux-gnu/libruby-2.5.so.2.5.1
+7f41f61c5000-7f41f61d5000 rw-p 00000000 00:00 0 
+7f41f61d5000-7f41f61fc000 r-xp 00000000 08:07 2241020                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f41f6213000-7f41f6233000 r-xs 00000000 08:07 1967270                    /home/developer/.glvndxOaGu3 (deleted)
+7f41f6233000-7f41f6246000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41f6246000-7f41f6266000 rw-s 00000000 00:06 587                        /dev/nvidia0
+7f41f6266000-7f41f62a6000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41f62c6000-7f41f63cc000 rw-p 00000000 00:00 0 
+7f41f63da000-7f41f63dc000 r--s 00000000 08:07 2374673                    /usr/bin/ruby2.5
+7f41f63dc000-7f41f63de000 rw-s 00000000 08:07 1967269                    /tmp/.glKt6P8E (deleted)
+7f41f63de000-7f41f63df000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41f63df000-7f41f63e3000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41f63e3000-7f41f63e4000 rw-s 00000000 00:06 587                        /dev/nvidia0
+7f41f63e4000-7f41f63e5000 rw-s 00000000 00:06 586                        /dev/nvidiactl
+7f41f63e5000-7f41f63f5000 rw-p 00000000 00:00 0 
+7f41f63f5000-7f41f63f6000 ---p 00000000 00:00 0 
+7f41f63f6000-7f41f63fc000 rw-p 00000000 00:00 0 
+7f41f63fc000-7f41f63fd000 r--p 00027000 08:07 2241020                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f41f63fd000-7f41f63fe000 rw-p 00028000 08:07 2241020                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f41f63fe000-7f41f63ff000 rw-p 00000000 00:00 0 
+7ffddd0f2000-7ffddd8f1000 rw-p 00000000 00:00 0                          [stack]
+7ffddd951000-7ffddd954000 r--p 00000000 00:00 0                          [vvar]
+7ffddd954000-7ffddd956000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+
+[NOTE]
+You may have encountered a bug in the Ruby interpreter or extension libraries.
+Bug reports are welcome.
+For details: http://www.ruby-lang.org/bugreport.html
+
+Aborted (core dumped)
+developer@baila-PC:~/subt_ws$ 

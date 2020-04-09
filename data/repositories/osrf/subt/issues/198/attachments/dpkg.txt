@@ -1,0 +1,81 @@
+ii  ignition-blueprint                            1.0.0-1~bionic                                                 amd64        Collection of ignition robotics packages - Blueprint
+ii  ignition-gazebo2                              2.10.0-1~bionic                                                amd64        Ignition Gazebo classes and functions for robot apps - Binaries
+ii  ignition-tools:amd64                          0.2.0-1~bionic                                                 amd64        Ignition entry point for using all the suite of ignition tools
+ii  libignition-cmake2-dev:amd64                  2.1.1-1~bionic                                                 amd64        Protobuf messages for ignitionics applications - Development files
+ii  libignition-common3:amd64                     3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions for robot apps - Shared library
+ii  libignition-common3-av:amd64                  3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (AV) - Shared library
+ii  libignition-common3-av-dev:amd64              3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (AV) - Development files
+ii  libignition-common3-core-dev:amd64            3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (core) - Development files
+ii  libignition-common3-dev:amd64                 3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions for robot apps - Metapackage
+ii  libignition-common3-events:amd64              3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (Events) - Shared library
+ii  libignition-common3-events-dev:amd64          3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (Events) - Development files
+ii  libignition-common3-graphics:amd64            3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (Graphics) - Shared library
+ii  libignition-common3-graphics-dev:amd64        3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (Graphics) - Development files
+ii  libignition-common3-profiler:amd64            3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (Profiler) - Shared library
+ii  libignition-common3-profiler-dev:amd64        3.3.0-1~bionic                                                 amd64        Ignition Common classes and functions (profiler) - Development files
+ii  libignition-fuel-tools3:amd64                 3.2.1-1~bionic                                                 amd64        Ignition fuel-tools classes and functions for robot apps - Shared library
+ii  libignition-fuel-tools3-dev:amd64             3.2.1-1~bionic                                                 amd64        Ignition fuel-tools classes and functions for robot apps - Development files
+ii  libignition-gazebo2:amd64                     2.10.0-1~bionic                                                amd64        Ignition Gazebo classes and functions for robot apps - Shared library
+ii  libignition-gazebo2-dev:amd64                 2.10.0-1~bionic                                                amd64        Ignition Gazebo classes and functions for robot apps - Development files
+ii  libignition-gazebo2-plugins:amd64             2.10.0-1~bionic                                                amd64        Ignition Gazebo classes and functions for robot apps - Plugins
+ii  libignition-gui2:amd64                        2.0.1-1~bionic                                                 amd64        Ignition Gui classes and functions for robot apps - Shared library
+ii  libignition-gui2-dev:amd64                    2.0.1-1~bionic                                                 amd64        Ignition Gui classes and functions for robot apps - Development files
+ii  libignition-launch:amd64                      1.2.3-1~bionic                                                 amd64        Ignition Robotics Launch Library - Launch libraries
+ii  libignition-launch-dev:amd64                  1.2.3-1~bionic                                                 amd64        Ignition Robotics Launch Library - Launch libraries
+ii  libignition-math6:amd64                       6.4.0-1~bionic                                                 amd64        Ignition Robotics Math Library - Shared library
+ii  libignition-math6-dev:amd64                   6.4.0-1~bionic                                                 amd64        Ignition Robotics Math Library - Development files
+ii  libignition-math6-eigen3-dev:amd64            6.4.0-1~bionic                                                 amd64        Ignition Robotics Math Library - Eigen3 Development files
+ii  libignition-msgs4:amd64                       4.7.0-1~bionic                                                 amd64        Protobuf messages for ignitionics applications - Shared library
+ii  libignition-msgs4-dev:amd64                   4.7.0-1~bionic                                                 amd64        Protobuf messages for ignitionics applications - Development files
+ii  libignition-physics:amd64                     1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Shared library
+ii  libignition-physics-core-dev:amd64            1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Development files
+ii  libignition-physics-dartsim:amd64             1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Dartsim library
+ii  libignition-physics-dartsim-dev:amd64         1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Development files
+ii  libignition-physics-dev:amd64                 1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Metapackage
+ii  libignition-physics-mesh-dev:amd64            1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - Mesh Dev files
+ii  libignition-physics-sdf-dev:amd64             1.4.0-1~bionic                                                 amd64        Ignition Physics classes and functions for robot apps - SDF Dev files
+ii  libignition-plugin:amd64                      1.0.0-1~bionic                                                 amd64        Ignition Robotics Plugin Library - Shared library
+ii  libignition-plugin-dev:amd64                  1.0.0-1~bionic                                                 amd64        Ignition Robotics Plugin Library - Development files
+ii  libignition-rendering2:amd64                  2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Shared library
+ii  libignition-rendering2-core-dev:amd64         2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions - Core development files
+ii  libignition-rendering2-dev:amd64              2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Metapackage
+ii  libignition-rendering2-ogre1:amd64            2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Development files
+ii  libignition-rendering2-ogre1-dev:amd64        2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Development files
+ii  libignition-rendering2-ogre2:amd64            2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Development files
+ii  libignition-rendering2-ogre2-dev:amd64        2.1.2-1~bionic                                                 amd64        Ignition rendering2 classes and functions for robot apps - Development files
+ii  libignition-sensors2:amd64                    2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Shared library
+ii  libignition-sensors2-air-pressure:amd64       2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib air-pressure
+ii  libignition-sensors2-air-pressure-dev:amd64   2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files air-pressure
+ii  libignition-sensors2-altimeter:amd64          2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib altimeter
+ii  libignition-sensors2-altimeter-dev:amd64      2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files altimeter
+ii  libignition-sensors2-camera:amd64             2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib Camera
+ii  libignition-sensors2-camera-dev:amd64         2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files Camera
+ii  libignition-sensors2-core-dev:amd64           2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Development files
+ii  libignition-sensors2-depth-camera:amd64       2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib depth-camera
+ii  libignition-sensors2-depth-camera-dev:amd64   2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files depth-camera
+ii  libignition-sensors2-dev:amd64                2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Metapackage
+ii  libignition-sensors2-gpu-lidar:amd64          2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib gpu-lidar
+ii  libignition-sensors2-gpu-lidar-dev:amd64      2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files gpu-lidar
+ii  libignition-sensors2-imu:amd64                2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib imu
+ii  libignition-sensors2-imu-dev:amd64            2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files imu
+ii  libignition-sensors2-lidar:amd64              2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib lidar
+ii  libignition-sensors2-lidar-dev:amd64          2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files lidar
+ii  libignition-sensors2-logical-camera:amd64     2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib logical-camera
+ii  libignition-sensors2-logical-camera-dev:amd64 2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files logical-camera
+ii  libignition-sensors2-magnetometer:amd64       2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib magnetometer
+ii  libignition-sensors2-magnetometer-dev:amd64   2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files magnetometer
+ii  libignition-sensors2-rendering:amd64          2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Lib rendering
+ii  libignition-sensors2-rendering-dev:amd64      2.6.1-1~bionic                                                 amd64        Ignition sensors2 classes and functions for robot apps - Dev files rendering
+ii  libignition-sensors2-rgbd-camera:amd64        2.6.1-1~bionic                                                 amd64        Ignition Sensors classes and functions for robot apps - Lib rgbd-camera
+ii  libignition-sensors2-rgbd-camera-dev:amd64    2.6.1-1~bionic                                                 amd64        Ignition Sensors classes and functions for robot apps - Dev files rgbd-camera
+ii  libignition-tools-dev:amd64                   0.2.0-1~bionic                                                 amd64        CMake/Pkgconfig Support for rest of the suite of ignition tools
+ii  libignition-transport7:amd64                  7.1.0-1~bionic                                                 amd64        Ignition Robotics Transport Library - Shared library
+ii  libignition-transport7-core-dev:amd64         7.1.0-1~bionic                                                 amd64        Ignition Robotics transport Library - Core Dev files
+ii  libignition-transport7-dev:amd64              7.1.0-1~bionic                                                 amd64        Ignition Robotics transport Library - Metapackage
+ii  libignition-transport7-log:amd64              7.1.0-1~bionic                                                 amd64        Ignition Robotics Transport Library - Log Shared library
+ii  libignition-transport7-log-dev:amd64          7.1.0-1~bionic                                                 amd64        Ignition Robotics transport Library - Core Dev
+ii  ros-melodic-ros1-ign                          0.7.0-1bionic                                                  amd64        Meta-package containing interfaces for using ROS with Ignition simulation.
+ii  ros-melodic-ros1-ign-bridge                   0.7.0-1bionic                                                  amd64        Bridge communication between ROS 1 and Ignition Transport
+ii  ros-melodic-ros1-ign-gazebo-demos             0.7.0-1bionic                                                  amd64        Demos using Ignition Gazebo simulation with ROS 1.
+ii  ros-melodic-ros1-ign-image                    0.7.0-1bionic                                                  amd64        Image utilities for Ignition simulation with ROS 1.
+ii  ros-melodic-ros1-ign-point-cloud              0.7.0-1bionic                                                  amd64        Point cloud utilities for Ignition simulation with ROS 1.

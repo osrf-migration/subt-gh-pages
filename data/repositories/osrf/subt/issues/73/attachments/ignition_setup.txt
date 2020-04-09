@@ -1,0 +1,311 @@
+ssci-utah:subt_ws$ ign launch virtual_stix.ign -v 4
+[Dbg] [Manager.cc:406] Forked a process for [ros] command[roslaunchsubt_roscompetition_init.launchworld_name:=virtual_stix]
+[Dbg] [Manager.cc:649] Loading plugin. Name[ignition::launch::GazeboServer] File[libignition-launch-gazebo.so]
+[Msg] Recording to []
+[Msg] Loading SDF world file[/home/ssci-utah/subt_ws/install/share/subt_ign/worlds/virtual_stix.sdf].
+[Dbg] [Manager.cc:649] Loading plugin. Name[ignition::launch::GazeboGui] File[libignition-launch-gazebogui.so]
+[Dbg] [Application.cc:87] Initializing application.
+[GUI] [Dbg] [Application.cc:407] Create main window
+... logging to /home/ssci-utah/.ros/log/35526fce-8628-11e9-8a8f-6c2b59e0566d/roslaunch-regulus-9830.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+[GUI] [Msg] Loading config [/usr/share/ignition/ignition-gazebo2/gui/gui.config]
+[GUI] [Dbg] [Application.cc:266] Loading window config
+[GUI] [Dbg] [Application.cc:421] Applying config
+[GUI] [Dbg] [Application.cc:305] Loading plugin [GzScene3D]
+[GUI] [Msg] Transform mode service on [/gui/transform_mode]
+[GUI] [Msg] Added plugin [3D View] to main window
+[GUI] [Msg] Loaded plugin [GzScene3D] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libGzScene3D.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldControl]
+[GUI] [Msg] Added plugin [World control] to main window
+[GUI] [Msg] Loaded plugin [WorldControl] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldControl.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [WorldStats]
+[GUI] [Msg] Added plugin [World stats] to main window
+[GUI] [Msg] Loaded plugin [WorldStats] from path [/usr/lib/x86_64-linux-gnu/ign-gui-2/plugins/libWorldStats.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [EntityTree]
+[GUI] [Msg] Added plugin [Entity tree] to main window
+[GUI] [Msg] Loaded plugin [EntityTree] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libEntityTree.so]
+[GUI] [Dbg] [Application.cc:305] Loading plugin [TransformControl]
+[GUI] [Msg] Added plugin [Transform control] to main window
+[GUI] [Msg] Loaded plugin [TransformControl] from path [/usr/lib/x86_64-linux-gnu/ign-gazebo-2/plugins/gui/libTransformControl.so]
+[GUI] [Dbg] [GuiRunner.cc:35] Requesting initial state from [/world/virtual_stix/state]...
+[GUI] [Dbg] [GazeboGui.cc:130] Running the GazeboGui plugin.
+[Dbg] [EntityComponentManager.cc:571] Using components of type [2251689575469537287] / [ign_gazebo_components.World].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [13994732549916512682] / [ign_gazebo_components.Name].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [12592746352568925681] / [ign_gazebo_components.Gravity].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [13224937992534617849] / [ign_gazebo_components.MagneticField].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [8753193699724811771] / [ign_gazebo_components.Wind].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [12173050716021724529] / [ign_gazebo_components.WorldLinearVelocity].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [15943768124495574352] / [ign_gazebo_components.WorldLinearVelocitySeed].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [3297509811873971798] / [ign_gazebo_components.ParentEntity].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [17100615127981600159] / [ign_gazebo_components.Scene].
+[Err] [LevelManager.cc:134] Could not find a plugin tag with name ignition::gazebo. Levels and distributed simulation will not work.
+[Dbg] [EntityComponentManager.cc:571] Using components of type [8064491505919932473] / [ign_gazebo_components.Level].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [2668898242563798256] / [ign_gazebo_components.DefaultLevel].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [11371360182141354106] / [ign_gazebo_components.LevelEntityNames].
+[Msg] Unspecified or invalid log path to record to. Recording to default location [/home/ssci-utah/.ignition/gazebo/log/2019-06-03T11:51:30.848754342]
+[Msg] Recording to log file [/home/ssci-utah/.ignition/gazebo/log/2019-06-03T11:51:30.848754342/state.tlog]
+started roslaunch server http://regulus:45401/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /model/axis_angular: 0
+ * /model/axis_arrow_horizontal: 3
+ * /model/axis_arrow_vertical: 4
+ * /model/axis_horizontal: 3
+ * /model/axis_linear: 1
+ * /model/axis_vertical: 4
+ * /model/button_map/A: 0
+ * /model/button_map/B: 1
+ * /model/button_map/L: 4
+ * /model/button_map/R: 5
+ * /model/button_map/X: 2
+ * /model/button_map/Y: 3
+ * /model/button_robot_map/A: X1
+ * /model/button_robot_map/B: X2
+ * /model/button_robot_map/X: X3
+ * /model/button_robot_map/Y: X4
+ * /model/comm_led_service_suffixes: ['/rear_center_le...
+ * /model/dead_man_switch_left: 10
+ * /model/dead_man_switch_right: 11
+ * /model/enable_button: 4
+ * /model/enable_turbo_button: 5
+ * /model/flashlight_service_suffixes: ['/right_headligh...
+ * /model/joy_node/autorepeat_rate: 20
+ * /model/joy_node/deadzone: 0.1
+ * /model/joy_node/dev: /dev/input/js0
+ * /model/light_off_trigger: 7
+ * /model/light_on_trigger: 6
+ * /model/robot_address_map/X1: X1
+ * /model/robot_address_map/X2: X2
+ * /model/robot_address_map/X3: X3
+ * /model/robot_address_map/X4: X4
+ * /model/robot_names: ['X1', 'X2', 'X3'...
+ * /model/scale_angular: 0.4
+ * /model/scale_angular_turbo: 0.8
+ * /model/scale_horizontal: 0.4
+ * /model/scale_horizontal_turbo: 1.5
+ * /model/scale_linear: 0.1
+ * /model/scale_linear_turbo: 1.5
+ * /model/scale_vertical: 50
+ * /model/scale_vertical_turbo: 150
+ * /model/select_led_service_suffixes: ['/left_lateral_f...
+ * /rosdistro: melodic
+ * /rosversion: 1.14.3
+ * /use_sim_time: True
+ * /world_name: virtual_stix
+
+NODES
+  /model/X1/
+    pose_tf_broadcaster_X1 (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_X1_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X1_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X1_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X1_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X1_twist (ros1_ign_bridge/parameter_bridge)
+  /model/X2/
+    pose_tf_broadcaster_X2 (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_X2_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X2_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X2_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X2_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X2_twist (ros1_ign_bridge/parameter_bridge)
+  /model/
+    joy_node (joy/joy_node)
+    teleop_twist_joy (subt_example/teleop_node)
+  /
+    ros1_ign_bridge_regulus_9830_8290876594259446503 (ros1_ign_bridge/parameter_bridge)
+    tf_world_static (tf2_ros/static_transform_publisher)
+  /model/X3/
+    pose_tf_broadcaster_X3 (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_X3_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X3_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X3_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X3_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X3_twist (ros1_ign_bridge/parameter_bridge)
+  /model/X4/
+    pose_tf_broadcaster_X4 (subt_ros/pose_tf_broadcaster)
+    ros1_ign_bridge_X4_actuators (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X4_camera (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X4_imu (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X4_pose (ros1_ign_bridge/parameter_bridge)
+    ros1_ign_bridge_X4_twist (ros1_ign_bridge/parameter_bridge)
+
+ROS_MASTER_URI=http://localhost:11311
+
+[Dbg] [SimulationRunner.cc:541] Loaded system [ignition::gazebo::systems::LogRecord] for entity [1]
+[Dbg] [SimulationRunner.cc:598] Loaded system [ignition::gazebo::systems::Physics] for entity [1]
+[Dbg] [SimulationRunner.cc:598] Loaded system [ignition::gazebo::systems::Sensors] for entity [1]
+[Msg] Create service on [/world/virtual_stix/create]
+[Msg] Remove service on [/world/virtual_stix/remove]
+[Msg] Pose service on [/world/virtual_stix/set_pose]
+[Dbg] [SimulationRunner.cc:598] Loaded system [ignition::gazebo::systems::UserCommands] for entity [1]
+[Dbg] [SimulationRunner.cc:598] Loaded system [ignition::gazebo::systems::SceneBroadcaster] for entity [1]
+[Dbg] [SimulationRunner.cc:598] Loaded system [ignition::gazebo::systems::Imu] for entity [1]
+[Dbg] [EntityComponentManager.cc:571] Using components of type [6687176221774458630] / [ign_gazebo_components.Model].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [6612894081701502240] / [ign_gazebo_components.Pose].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [8546580419506082455] / [ign_gazebo_components.Static].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [9712747055438129860] / [ign_gazebo_components.WindMode].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [5081358965268446661] / [ign_gazebo_components.Link].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [8112400427272910195] / [ign_gazebo_components.Inertial].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [16454635107327670381] / [ign_gazebo_components.Visual].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [17121648710877364109] / [ign_gazebo_components.Geometry].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [17938588655714334139] / [ign_gazebo_components.Collision].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [9225962031573086509] / [ign_gazebo_components.CollisionElement].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [10522242218202596205] / [ign_gazebo_components.CanonicalLink].
+[Dbg] [EntityComponentManager.cc:571] Using components of type [3866641186784191835] / [ign_gazebo_components.Light].
+[Msg] Loaded level [3]
+[Msg] Serving GUI information on [/world/virtual_stix/gui/info]
+[Msg] World [virtual_stix] initialized with [1ms] physics profile.
+[Dbg] [GazeboServer.cc:166] Loaded GazeboServer plugin.
+[Dbg] [Manager.cc:649] Loading plugin. Name[subt::CommsBrokerPlugin] File[libCommsBrokerPluginIgn.so]
+[Dbg] [CommsBrokerPlugin.cc:67] Loading visibility_config from SDF: 
+RF Configuration (visibility-based)
+-- visibilityCostToFadingExponent: 0.2
+-- commsCostMax: 15
+
+[Dbg] [CommsBrokerPlugin.cc:91] Loading range_config from SDF: 
+RF Configuration (range-based)
+-- max_range: 20
+-- fading_exponent: 2.5
+-- L0: 40
+-- sigma: 10
+
+[Dbg] [CommsBrokerPlugin.cc:116] Loading radio_config from SDF: 
+Radio Configuration
+-- capacity: 1e+06
+-- default_tx_power: 20
+-- noise_floor: -90
+-- modulation: QPSK
+
+[Dbg] [CommsBrokerPlugin.cc:210] Using commsModelType: log_normal_range
+[Msg] Starting SubT comms broker
+[Dbg] [Manager.cc:649] Loading plugin. Name[subt::BaseStationPlugin] File[libBaseStationPluginIgn.so]
+[Msg] Base station plugin loaded
+New client registered [base_station]
+New endpoint registered [base_station:4100] for client [base_station]
+New endpoint registered [broadcast:4100] for client [base_station]
+[GUI] [Msg] Loading plugin [ignition-rendering2-ogre2]
+[Dbg] [Manager.cc:649] Loading plugin. Name[subt::GameLogicPlugin] File[libGameLogicPluginIgn.so]
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+[Msg] Adding artifact name[extinguisher_1] type[TYPE_EXTINGUISHER]
+[Msg] Adding artifact name[backpack_1] type[TYPE_BACKPACK]
+[Msg] Adding artifact name[phone_1] type[TYPE_PHONE]
+[Msg] Adding artifact name[rescue_randy_1] type[TYPE_RESCUE_RANDY]
+[Msg] Adding artifact name[extinguisher_2] type[TYPE_EXTINGUISHER]
+[Msg] Adding artifact name[drill_1] type[TYPE_DRILL]
+[Msg] Adding artifact name[drill_2] type[TYPE_DRILL]
+[Msg] Adding artifact name[drill_3] type[TYPE_DRILL]
+[Msg] Adding artifact name[drill_4] type[TYPE_DRILL]
+[Msg] Adding artifact name[phone_2] type[TYPE_PHONE]
+[Msg] Adding artifact name[backpack_2] type[TYPE_BACKPACK]
+[Msg] Adding artifact name[rescue_randy_2] type[TYPE_RESCUE_RANDY]
+[Msg] Adding artifact name[rescue_randy_3] type[TYPE_RESCUE_RANDY]
+[Msg] Adding artifact name[backpack_3] type[TYPE_BACKPACK]
+[Msg] Adding artifact name[phone_3] type[TYPE_PHONE]
+[Msg] Adding artifact name[extinguisher_3] type[TYPE_EXTINGUISHER]
+[Msg] Starting SubT
+process[model/X1/pose_tf_broadcaster_X1-7]: started with pid [9900]
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+process[model/X2/pose_tf_broadcaster_X2-13]: started with pid [9903]
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+process[model/X3/pose_tf_broadcaster_X3-19]: started with pid [9908]
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+ERROR: cannot launch node of type [ros1_ign_bridge/parameter_bridge]: ros1_ign_bridge
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/home/ssci-utah/subt_ws/install/share
+ROS path [2]=/opt/ros/melodic/share
+process[model/X4/pose_tf_broadcaster_X4-25]: started with pid [9914]
+process[tf_world_static-26]: started with pid [9916]
+process[model/joy_node-27]: started with pid [9922]
+process[model/teleop_twist_joy-28]: started with pid [9928]
+[GUI] [Dbg] [RenderUtil.cc:628] Create scene [scene]
+[Msg] Serving scene information on [/world/virtual_stix/scene/info]
+[Msg] Serving graph information on [/world/virtual_stix/scene/graph]
+[Msg] Serving full state on [/world/virtual_stix/state]
+[Msg] Publishing scene information on [/world/virtual_stix/scene/info]
+[Msg] Publishing entity deletions on [/world/virtual_stix/scene/deletion]
+[Msg] Publishing state changes on [/world/virtual_stix/state]
+[Msg] Publishing pose messages on [/world/virtual_stix/pose/info]
+[Msg] Publishing dynamic pose messages on [/world/virtual_stix/dynamic_pose/info]
+
